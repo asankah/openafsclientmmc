@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("OpenAFS Client Manager")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("OpenAFS Client Manager Snap-in")]
+[assembly: AssemblyDescription("Manages the OpenAFS Client on Windows")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("OpenAFS")]
+[assembly: AssemblyCompany("Brant Gurganus")]
 [assembly: AssemblyProduct("OpenAFS Client Manager")]
-[assembly: AssemblyCopyright("Copyright © OpenAFS 2009")]
+[assembly: AssemblyCopyright("Copyright © Brant Gurganus 2009")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
