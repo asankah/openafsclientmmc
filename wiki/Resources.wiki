@@ -1,0 +1,11 @@
+#summary Annotates a list of pertinent resources for project development.
+
+= Introduction =
+
+In the course of developing the OpenAFS Client Management snap-in, I've come upon resources useful for development using MMC 3.0 or just in general.
+
+= MMC 3.0 =
+
+  * [http://msdn.microsoft.com/en-us/library/bb246454(VS.85).aspx MMC 3.0 Guidelines] - describes design considerations for MMC design and development
+  * [http://msdn.microsoft.com/en-us/library/bb905327.aspx MMC 3.0 on MSDN] - describes development for MMC 3.0 as well as its API
+  * [http://msdn.microsoft.com/en-us/library/50614e95.aspx Installutil] - a tool useful during development for registering the snap-in
