@@ -179,8 +179,6 @@
             this.saveLogButton = new System.Windows.Forms.Button();
             this.enableTracingCheckBox = new System.Windows.Forms.CheckBox();
             this.serviceTimer = new System.Windows.Forms.Timer(this.components);
-            this.okButton = new System.Windows.Forms.Button();
-            this.cancelButton = new System.Windows.Forms.Button();
             this.applyButton = new System.Windows.Forms.Button();
             this.clientServiceController = new System.ServiceProcess.ServiceController();
             this.browseFileDialog = new System.Windows.Forms.OpenFileDialog();
@@ -1676,26 +1674,6 @@
             this.serviceTimer.Interval = 2000;
             this.serviceTimer.Tick += new System.EventHandler(this.serviceTimer_Tick);
             // 
-            // okButton
-            // 
-            this.okButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.okButton.Location = new System.Drawing.Point(358, 424);
-            this.okButton.Name = "okButton";
-            this.okButton.Size = new System.Drawing.Size(75, 23);
-            this.okButton.TabIndex = 2;
-            this.okButton.Text = "OK";
-            this.okButton.UseVisualStyleBackColor = true;
-            // 
-            // cancelButton
-            // 
-            this.cancelButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.cancelButton.Location = new System.Drawing.Point(439, 424);
-            this.cancelButton.Name = "cancelButton";
-            this.cancelButton.Size = new System.Drawing.Size(75, 23);
-            this.cancelButton.TabIndex = 0;
-            this.cancelButton.Text = "Cancel";
-            this.cancelButton.UseVisualStyleBackColor = true;
-            // 
             // applyButton
             // 
             this.applyButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -1714,8 +1692,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.okButton);
-            this.Controls.Add(this.cancelButton);
             this.Controls.Add(this.applyButton);
             this.Controls.Add(this.managerTabs);
             this.Controls.Add(this.logoPictureBox);
@@ -1773,8 +1749,6 @@
         private System.Windows.Forms.TabControl managerTabs;
         private System.Windows.Forms.Timer serviceTimer;
         private System.Windows.Forms.Button applyButton;
-        private System.Windows.Forms.Button cancelButton;
-        private System.Windows.Forms.Button okButton;
         private System.Windows.Forms.TextBox netbiosNameTextBox;
         private System.Windows.Forms.Label netbiosNameLabel;
         private System.Windows.Forms.Label lanAdapterLabel;
