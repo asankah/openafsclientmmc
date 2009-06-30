@@ -3,9 +3,9 @@ using System.Security.Permissions;
 using System.ComponentModel;
 
 [assembly: PermissionSetAttribute(SecurityAction.RequestMinimum, Unrestricted=true)]
-namespace OpenAFS_Client_Manager
+namespace OpenAFSClientManager
 {
-    [RunInstaller(true)]
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1704:IdentifiersShouldBeSpelledCorrectly", MessageId = "Util"), RunInstaller(true)]
     public class InstallUtilSupport : SnapInInstaller
     {
     }
@@ -14,9 +14,9 @@ namespace OpenAFS_Client_Manager
         DisplayName = "OpenAFS Client Manager",
         Description="Manages the OpenAFS Client",
         Vendor="OpenAFS")]
-    public class ManagerSnapin : SnapIn
+    public class ManagerSnapIn : SnapIn
     {
-        public ManagerSnapin()
+        public ManagerSnapIn()
         {
             this.RootNode = new ScopeNode();
             this.RootNode.DisplayName = "OpenAFS Client Manager";

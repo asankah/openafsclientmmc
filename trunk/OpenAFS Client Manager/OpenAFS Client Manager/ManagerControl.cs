@@ -5,11 +5,14 @@ using System.Text;
 using System.Windows.Forms;
 using System.ServiceProcess;
 using Microsoft.Win32;
+using System.Resources;
 
-namespace OpenAFS_Client_Manager
+namespace OpenAFSClientManager
 {
     public partial class ManagerControl : UserControl
     {
+        ResourceManager strings = ResourceManager.CreateFileBasedResourceManager("Resources", ".", null);
+
         public ManagerControl()
         {
             InitializeComponent();
@@ -28,25 +31,25 @@ namespace OpenAFS_Client_Manager
                 case ServiceControllerStatus.Stopped:
                     startButton.Enabled = true;
                     stopButton.Enabled = false;
-                    runningTextBox.Text = "Stopped";
+                    runningTextBox.Text = strings.GetString("Stopped");
                     serviceTimer.Enabled = false;
                     break;
                 case ServiceControllerStatus.Running:
                     startButton.Enabled = false;
                     stopButton.Enabled = true;
-                    runningTextBox.Text = "Running";
+                    runningTextBox.Text = strings.GetString("Running");
                     serviceTimer.Enabled = false;
                     break;
                 case ServiceControllerStatus.StopPending:
                     startButton.Enabled = false;
                     stopButton.Enabled = false;
-                    runningTextBox.Text = "Stopping";
+                    runningTextBox.Text = strings.GetString("Stopping");
                     serviceTimer.Enabled = true;
                     break;
                 case ServiceControllerStatus.StartPending:
                     startButton.Enabled = false;
                     stopButton.Enabled = false;
-                    runningTextBox.Text = "Starting";
+                    runningTextBox.Text = strings.GetString("Starting");
                     serviceTimer.Enabled = true;
                     break;
                 default:

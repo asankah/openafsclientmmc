@@ -1,6 +1,6 @@
 ﻿using Microsoft.ManagementConsole;
 
-namespace OpenAFS_Client_Manager
+namespace OpenAFSClientManager
 {
     class ManagerFormView : FormView
     {

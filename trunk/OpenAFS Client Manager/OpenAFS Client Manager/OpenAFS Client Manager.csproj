@@ -8,7 +8,7 @@
     <ProjectGuid>{9FEF1A46-13D2-4290-BB02-D7BD16AAB965}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OpenAFS_Client_Manager</RootNamespace>
+    <RootNamespace>OpenAFSClientManager</RootNamespace>
     <AssemblyName>OpenAFS Client Manager</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -89,6 +89,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="UnhandledStateException.cs" />
     <Compile Include="ManagerFormView.cs" />
     <Compile Include="ManagerSnapin.cs">
