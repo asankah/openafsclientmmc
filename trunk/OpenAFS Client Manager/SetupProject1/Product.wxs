@@ -11,7 +11,7 @@
     <Condition Message=".Net 2.0 is required."><![CDATA[NETFRAMEWORK20]]></Condition>
     <Condition Message="MMC 3.0 is required."><![CDATA[MMC3]]></Condition>
 		<Media Id="1" Cabinet="media1.cab" EmbedCab="yes" />
-
+    <UIRef Id="WixUI_Minimal"/>
 		<Directory Id="TARGETDIR" Name="SourceDir">
 			<Directory Id="ProgramFilesFolder">
 				<Directory Id="INSTALLLOCATION" Name="OpenAFS Client Manager">
