@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension">
 	<Product Id="609acf90-e901-490a-b2d9-702245e69c64" Name="OpenAFS Client Manager" Language="1033" Version="1.0.0.0" Manufacturer="Brant Gurganus" UpgradeCode="0a231d1a-8c07-4987-9a5b-08b096f242e2">
-		<Package InstallerVersion="200" Compressed="yes" />
+    <Package InstallerVersion="200" Compressed="yes" Platform="x86" />
     <Property Id="MMC3">
       <DirectorySearch Id="MMC3Path" Path="[SystemFolder]">
         <FileSearch Id="MMC3Installed" Name="mmc.exe" MinVersion="5.2.3790.2612"/>
@@ -14,35 +14,41 @@
     <UIRef Id="WixUI_Minimal"/>
 		<Directory Id="TARGETDIR" Name="SourceDir">
 			<Directory Id="ProgramFilesFolder">
-				<Directory Id="INSTALLLOCATION" Name="OpenAFS Client Manager">
-          <Component Id="Snapin" Guid="3d9b1e14-704b-46cc-b8d3-8bfd1d27702e">
-            <File Id="SnapinFile" Name="$(var.OpenAFS Client Manager.TargetFileName)" Source="$(var.OpenAFS Client Manager.TargetPath)" DiskId="1" KeyPath="yes">
-              <netfx:NativeImage Id="NativeSnapinFile"/>
-            </File>
-            <RegistryKey Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Action="createAndRemoveOnUninstall" />
-            <RegistryKey Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}\NodeTypes" Action="createAndRemoveOnUninstall" />
-            <RegistryKey Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}\Standalone" Action="createAndRemoveOnUninstall" />
-            <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="Type" Value="OpenAFS_Client_Manager.ManagerSnapin, OpenAFS Client Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=65b48e3fe5f62ac8" Type="string" Action="write" />
-            <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="ApplicationBase" Value="[INSTALLLOCATION]" Type="string" Action="write" />
-            <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="ConfigurationFile" Value="" Type="string" Action="write" />
-            <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="NameString" Value="OpenAFS Client Manager" Type="string" Action="write" />
-            <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="Description" Value="MMC 3.0 snap-in to end all snap-ins." Type="string" Action="write" />
-            <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="Provider" Value="Brant Gurganus" Type="string" Action="write" />
-            <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="AssemblyName" Value="$(var.OpenAFS Client Manager.TargetName)" Type="string" Action="write" />
-            <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="ModuleName" Value="$(var.OpenAFS Client Manager.TargetFileName)" Type="string" Action="write" />
-            <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="RuntimeVersion" Value="v2.0.50727" Type="string" Action="write" />
-            <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="FxVersion" Value="3.0.0.0" Type="string" Action="write" />
-            <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="About" Value="{00000000-0000-0000-0000-000000000000}" Type="string" Action="write"/>
-            <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="NameStringIndirect" Value="@[INSTALLLOCATION]$(var.OpenAFS Client Manager.TargetName).Resources,-1" Type="string" Action="write" />
-            <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="DescriptionStringIndirect" Value="@[INSTALLLOCATION]$(var.OpenAFS Client Manager.TargetName).Resources,-2" Type="string" Action="write" />
-            <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="IconIndirect" Value="@[SNAPINFOLDER]$(var.OpenAFS Client Manager.TargetName).Resources,-1" Type="string" Action="write" />
-          </Component>
+				<Directory Id="OpenAFS" Name="OpenAFS">
+          <Directory Id="Client" Name="Client">
+            <Directory Id="MMC" Name="MMC">
+              <Component Id="Snapin" Guid="3d9b1e14-704b-46cc-b8d3-8bfd1d27702e" Win64="no">
+                <File Id="SnapinFile" Name="$(var.OpenAFS Client Manager.TargetFileName)" Source="$(var.OpenAFS Client Manager.TargetPath)" DiskId="1" KeyPath="yes">
+                  <netfx:NativeImage Id="NativeSnapinFile" />
+                </File>
+                <RegistryKey Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Action="createAndRemoveOnUninstall" />
+                <RegistryKey Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}\NodeTypes" Action="createAndRemoveOnUninstall" />
+                <RegistryKey Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}\Standalone" Action="createAndRemoveOnUninstall" />
+                <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="Type" Value="OpenAFSClientManager.ManagerSnapIn, OpenAFS Client Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=65b48e3fe5f62ac8" Type="string" Action="write" />
+                <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="ApplicationBase" Value="[MMC]" Type="string" Action="write" />
+                <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="NameString" Value="OpenAFS Client Manager" Type="string" Action="write" />
+                <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="Description" Value="MMC 3.0 snap-in to end all snap-ins." Type="string" Action="write" />
+                <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="Provider" Value="Brant Gurganus" Type="string" Action="write" />
+                <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="AssemblyName" Value="$(var.OpenAFS Client Manager.TargetName)" Type="string" Action="write" />
+                <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="ModuleName" Value="$(var.OpenAFS Client Manager.TargetFileName)" Type="string" Action="write" />
+                <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="RuntimeVersion" Value="v2.0.50727" Type="string" Action="write" />
+                <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="FxVersion" Value="3.0.0.0" Type="string" Action="write" />
+                <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\MMC\SnapIns\FX:{95E6D88A-832B-49DF-A8E1-BF4DD77F2897}" Name="About" Value="{00000000-0000-0000-0000-000000000000}" Type="string" Action="write"/>
+              </Component>
+            </Directory>
+          </Directory>
 				</Directory>
 			</Directory>
 		</Directory>
 
-		<Feature Id="ProductFeature" Title="SetupProject1" Level="1">
+		<Feature Id="ProductFeature" Title="OpenAFS Snap-in" Level="1">
 			<ComponentRef Id="Snapin" />
 		</Feature>
+
+    <InstallExecuteSequence>
+      <Custom Action="mmcperf" After="InstallFinalize">VersionNT &lt; 600</Custom>
+    </InstallExecuteSequence>
+
+    <CustomAction Id="mmcperf" ExeCommand="[WindowsFolder]SYSTEM32\mmcperf.exe" Directory="MMC"/>
 	</Product>
 </Wix>

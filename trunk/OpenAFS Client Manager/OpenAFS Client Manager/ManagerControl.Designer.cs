@@ -757,6 +757,7 @@
             resources.ApplyResources(this.cellServDBBrowseButton, "cellServDBBrowseButton");
             this.cellServDBBrowseButton.Name = "cellServDBBrowseButton";
             this.cellServDBBrowseButton.UseVisualStyleBackColor = true;
+            this.cellServDBBrowseButton.Click += new System.EventHandler(this.cellServDBBrowseButton_Click);
             // 
             // cellServDBTextBox
             // 
@@ -1190,6 +1191,7 @@
             resources.ApplyResources(this.applyButton, "applyButton");
             this.applyButton.Name = "applyButton";
             this.applyButton.UseVisualStyleBackColor = true;
+            this.applyButton.Click += new System.EventHandler(this.applyButton_Click);
             // 
             // clientServiceController
             // 

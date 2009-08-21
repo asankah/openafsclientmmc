@@ -1458,6 +1458,15 @@
   <data name="&gt;&gt;performanceTab.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="callbackPortTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 200</value>
+  </data>
+  <data name="callbackPortTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="callbackPortTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
   <data name="&gt;&gt;callbackPortTextBox.Name" xml:space="preserve">
     <value>callbackPortTextBox</value>
   </data>
@@ -1469,6 +1478,21 @@
   </data>
   <data name="&gt;&gt;callbackPortTextBox.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="callbackPortLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="callbackPortLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 203</value>
+  </data>
+  <data name="callbackPortLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="callbackPortLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="callbackPortLabel.Text" xml:space="preserve">
+    <value>Callback port</value>
   </data>
   <data name="&gt;&gt;callbackPortLabel.Name" xml:space="preserve">
     <value>callbackPortLabel</value>
@@ -1482,6 +1506,21 @@
   <data name="&gt;&gt;callbackPortLabel.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="hiddenDotFilesCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hiddenDotFilesCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 183</value>
+  </data>
+  <data name="hiddenDotFilesCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 17</value>
+  </data>
+  <data name="hiddenDotFilesCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="hiddenDotFilesCheckBox.Text" xml:space="preserve">
+    <value>Mark dot-files as hidden</value>
+  </data>
   <data name="&gt;&gt;hiddenDotFilesCheckBox.Name" xml:space="preserve">
     <value>hiddenDotFilesCheckBox</value>
   </data>
@@ -1493,6 +1532,21 @@
   </data>
   <data name="&gt;&gt;hiddenDotFilesCheckBox.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="ansiFilenamesCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ansiFilenamesCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 160</value>
+  </data>
+  <data name="ansiFilenamesCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 17</value>
+  </data>
+  <data name="ansiFilenamesCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="ansiFilenamesCheckBox.Text" xml:space="preserve">
+    <value>Store ANSI file names</value>
   </data>
   <data name="&gt;&gt;ansiFilenamesCheckBox.Name" xml:space="preserve">
     <value>ansiFilenamesCheckBox</value>
@@ -1506,6 +1560,21 @@
   <data name="&gt;&gt;ansiFilenamesCheckBox.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="encryptCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="encryptCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 137</value>
+  </data>
+  <data name="encryptCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 17</value>
+  </data>
+  <data name="encryptCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="encryptCheckBox.Text" xml:space="preserve">
+    <value>Encrypt communication</value>
+  </data>
   <data name="&gt;&gt;encryptCheckBox.Name" xml:space="preserve">
     <value>encryptCheckBox</value>
   </data>
@@ -1517,6 +1586,15 @@
   </data>
   <data name="&gt;&gt;encryptCheckBox.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="sysnamesTextbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 111</value>
+  </data>
+  <data name="sysnamesTextbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="sysnamesTextbox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="&gt;&gt;sysnamesTextbox.Name" xml:space="preserve">
     <value>sysnamesTextbox</value>
@@ -1530,6 +1608,21 @@
   <data name="&gt;&gt;sysnamesTextbox.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="sysnamesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sysnamesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 114</value>
+  </data>
+  <data name="sysnamesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="sysnamesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="sysnamesLabel.Text" xml:space="preserve">
+    <value>AFS sysnames</value>
+  </data>
   <data name="&gt;&gt;sysnamesLabel.Name" xml:space="preserve">
     <value>sysnamesLabel</value>
   </data>
@@ -1541,6 +1634,15 @@
   </data>
   <data name="&gt;&gt;sysnamesLabel.ZOrder" xml:space="preserve">
     <value>6</value>
+  </data>
+  <data name="rootMountPointTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 85</value>
+  </data>
+  <data name="rootMountPointTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="rootMountPointTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="&gt;&gt;rootMountPointTextBox.Name" xml:space="preserve">
     <value>rootMountPointTextBox</value>
@@ -1554,6 +1656,21 @@
   <data name="&gt;&gt;rootMountPointTextBox.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="rootMountPointLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rootMountPointLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 88</value>
+  </data>
+  <data name="rootMountPointLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 13</value>
+  </data>
+  <data name="rootMountPointLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rootMountPointLabel.Text" xml:space="preserve">
+    <value>Name of root mount point</value>
+  </data>
   <data name="&gt;&gt;rootMountPointLabel.Name" xml:space="preserve">
     <value>rootMountPointLabel</value>
   </data>
@@ -1565,6 +1682,15 @@
   </data>
   <data name="&gt;&gt;rootMountPointLabel.ZOrder" xml:space="preserve">
     <value>8</value>
+  </data>
+  <data name="rootVolumeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 59</value>
+  </data>
+  <data name="rootVolumeTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="rootVolumeTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;rootVolumeTextBox.Name" xml:space="preserve">
     <value>rootVolumeTextBox</value>
@@ -1578,6 +1704,21 @@
   <data name="&gt;&gt;rootVolumeTextBox.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="rootVolumeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rootVolumeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 62</value>
+  </data>
+  <data name="rootVolumeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="rootVolumeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rootVolumeLabel.Text" xml:space="preserve">
+    <value>Root volume</value>
+  </data>
   <data name="&gt;&gt;rootVolumeLabel.Name" xml:space="preserve">
     <value>rootVolumeLabel</value>
   </data>
@@ -1589,6 +1730,15 @@
   </data>
   <data name="&gt;&gt;rootVolumeLabel.ZOrder" xml:space="preserve">
     <value>10</value>
+  </data>
+  <data name="defaultCellTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 33</value>
+  </data>
+  <data name="defaultCellTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="defaultCellTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;defaultCellTextBox.Name" xml:space="preserve">
     <value>defaultCellTextBox</value>
@@ -1602,6 +1752,21 @@
   <data name="&gt;&gt;defaultCellTextBox.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
+  <data name="defaultCellLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="defaultCellLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 36</value>
+  </data>
+  <data name="defaultCellLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="defaultCellLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="defaultCellLabel.Text" xml:space="preserve">
+    <value>Default cell</value>
+  </data>
   <data name="&gt;&gt;defaultCellLabel.Name" xml:space="preserve">
     <value>defaultCellLabel</value>
   </data>
@@ -1613,6 +1778,18 @@
   </data>
   <data name="&gt;&gt;defaultCellLabel.ZOrder" xml:space="preserve">
     <value>12</value>
+  </data>
+  <data name="cellServDBBrowseButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 5</value>
+  </data>
+  <data name="cellServDBBrowseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="cellServDBBrowseButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cellServDBBrowseButton.Text" xml:space="preserve">
+    <value>Browse…</value>
   </data>
   <data name="&gt;&gt;cellServDBBrowseButton.Name" xml:space="preserve">
     <value>cellServDBBrowseButton</value>
@@ -1626,6 +1803,15 @@
   <data name="&gt;&gt;cellServDBBrowseButton.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
+  <data name="cellServDBTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 7</value>
+  </data>
+  <data name="cellServDBTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="cellServDBTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
   <data name="&gt;&gt;cellServDBTextBox.Name" xml:space="preserve">
     <value>cellServDBTextBox</value>
   </data>
@@ -1637,6 +1823,21 @@
   </data>
   <data name="&gt;&gt;cellServDBTextBox.ZOrder" xml:space="preserve">
     <value>14</value>
+  </data>
+  <data name="cellServDBLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cellServDBLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 10</value>
+  </data>
+  <data name="cellServDBLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 13</value>
+  </data>
+  <data name="cellServDBLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cellServDBLabel.Text" xml:space="preserve">
+    <value>CellServDB directory</value>
   </data>
   <data name="&gt;&gt;cellServDBLabel.Name" xml:space="preserve">
     <value>cellServDBLabel</value>
@@ -1995,21 +2196,6 @@
   <data name="&gt;&gt;serversTabPage.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="newDomainButton.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="newDomainButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>174, 290</value>
-  </data>
-  <data name="newDomainButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 23</value>
-  </data>
-  <data name="newDomainButton.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="newDomainButton.Text" xml:space="preserve">
-    <value>New domain…</value>
-  </data>
   <data name="&gt;&gt;newDomainButton.Name" xml:space="preserve">
     <value>newDomainButton</value>
   </data>
@@ -2021,21 +2207,6 @@
   </data>
   <data name="&gt;&gt;newDomainButton.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="preserveTokensCheckBox.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="preserveTokensCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>174, 266</value>
-  </data>
-  <data name="preserveTokensCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 17</value>
-  </data>
-  <data name="preserveTokensCheckBox.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="preserveTokensCheckBox.Text" xml:space="preserve">
-    <value>Preserve tokens during log off</value>
   </data>
   <data name="&gt;&gt;preserveTokensCheckBox.Name" xml:space="preserve">
     <value>preserveTokensCheckBox</value>
@@ -2049,279 +2220,6 @@
   <data name="&gt;&gt;preserveTokensCheckBox.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cellsUpdateButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>245, 213</value>
-  </data>
-  <data name="cellsUpdateButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="cellsUpdateButton.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="cellsUpdateButton.Text" xml:space="preserve">
-    <value>Update</value>
-  </data>
-  <data name="&gt;&gt;cellsUpdateButton.Name" xml:space="preserve">
-    <value>cellsUpdateButton</value>
-  </data>
-  <data name="&gt;&gt;cellsUpdateButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cellsUpdateButton.Parent" xml:space="preserve">
-    <value>cellOptionsGroupBox</value>
-  </data>
-  <data name="&gt;&gt;cellsUpdateButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cellsRemoveButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>326, 213</value>
-  </data>
-  <data name="cellsRemoveButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="cellsRemoveButton.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="cellsRemoveButton.Text" xml:space="preserve">
-    <value>Remove…</value>
-  </data>
-  <data name="&gt;&gt;cellsRemoveButton.Name" xml:space="preserve">
-    <value>cellsRemoveButton</value>
-  </data>
-  <data name="&gt;&gt;cellsRemoveButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cellsRemoveButton.Parent" xml:space="preserve">
-    <value>cellOptionsGroupBox</value>
-  </data>
-  <data name="&gt;&gt;cellsRemoveButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="cellsTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>80, 186</value>
-  </data>
-  <data name="cellsTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>322, 20</value>
-  </data>
-  <data name="cellsTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;cellsTextBox.Name" xml:space="preserve">
-    <value>cellsTextBox</value>
-  </data>
-  <data name="&gt;&gt;cellsTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cellsTextBox.Parent" xml:space="preserve">
-    <value>cellOptionsGroupBox</value>
-  </data>
-  <data name="&gt;&gt;cellsTextBox.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="cellsLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="cellsLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 189</value>
-  </data>
-  <data name="cellsLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 13</value>
-  </data>
-  <data name="cellsLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="cellsLabel.Text" xml:space="preserve">
-    <value>Cells</value>
-  </data>
-  <data name="&gt;&gt;cellsLabel.Name" xml:space="preserve">
-    <value>cellsLabel</value>
-  </data>
-  <data name="&gt;&gt;cellsLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cellsLabel.Parent" xml:space="preserve">
-    <value>cellOptionsGroupBox</value>
-  </data>
-  <data name="&gt;&gt;cellsLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="scriptTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>80, 160</value>
-  </data>
-  <data name="scriptTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>322, 20</value>
-  </data>
-  <data name="scriptTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;scriptTextBox.Name" xml:space="preserve">
-    <value>scriptTextBox</value>
-  </data>
-  <data name="&gt;&gt;scriptTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;scriptTextBox.Parent" xml:space="preserve">
-    <value>cellOptionsGroupBox</value>
-  </data>
-  <data name="&gt;&gt;scriptTextBox.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="scriptLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="scriptLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 163</value>
-  </data>
-  <data name="scriptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 13</value>
-  </data>
-  <data name="scriptLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="scriptLabel.Text" xml:space="preserve">
-    <value>Log on Script</value>
-  </data>
-  <data name="&gt;&gt;scriptLabel.Name" xml:space="preserve">
-    <value>scriptLabel</value>
-  </data>
-  <data name="&gt;&gt;scriptLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;scriptLabel.Parent" xml:space="preserve">
-    <value>cellOptionsGroupBox</value>
-  </data>
-  <data name="&gt;&gt;scriptLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="loginFailGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="loginFailGroupBox.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;quitTextBox.Name" xml:space="preserve">
-    <value>quitTextBox</value>
-  </data>
-  <data name="&gt;&gt;quitTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;quitTextBox.Parent" xml:space="preserve">
-    <value>loginFailGroupBox</value>
-  </data>
-  <data name="&gt;&gt;quitTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;quitLabel.Name" xml:space="preserve">
-    <value>quitLabel</value>
-  </data>
-  <data name="&gt;&gt;quitLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;quitLabel.Parent" xml:space="preserve">
-    <value>loginFailGroupBox</value>
-  </data>
-  <data name="&gt;&gt;quitLabel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;retryTextBox.Name" xml:space="preserve">
-    <value>retryTextBox</value>
-  </data>
-  <data name="&gt;&gt;retryTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;retryTextBox.Parent" xml:space="preserve">
-    <value>loginFailGroupBox</value>
-  </data>
-  <data name="&gt;&gt;retryTextBox.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;retryLabel.Name" xml:space="preserve">
-    <value>retryLabel</value>
-  </data>
-  <data name="&gt;&gt;retryLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;retryLabel.Parent" xml:space="preserve">
-    <value>loginFailGroupBox</value>
-  </data>
-  <data name="&gt;&gt;retryLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;silenceErrorsCheckBox.Name" xml:space="preserve">
-    <value>silenceErrorsCheckBox</value>
-  </data>
-  <data name="&gt;&gt;silenceErrorsCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;silenceErrorsCheckBox.Parent" xml:space="preserve">
-    <value>loginFailGroupBox</value>
-  </data>
-  <data name="&gt;&gt;silenceErrorsCheckBox.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="loginFailGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 43</value>
-  </data>
-  <data name="loginFailGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>395, 110</value>
-  </data>
-  <data name="loginFailGroupBox.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="loginFailGroupBox.Text" xml:space="preserve">
-    <value>If automatic login fails…</value>
-  </data>
-  <data name="&gt;&gt;loginFailGroupBox.Name" xml:space="preserve">
-    <value>loginFailGroupBox</value>
-  </data>
-  <data name="&gt;&gt;loginFailGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;loginFailGroupBox.Parent" xml:space="preserve">
-    <value>cellOptionsGroupBox</value>
-  </data>
-  <data name="&gt;&gt;loginFailGroupBox.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="automaticLoginCheckBox.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="automaticLoginCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
-  </data>
-  <data name="automaticLoginCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 17</value>
-  </data>
-  <data name="automaticLoginCheckBox.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="automaticLoginCheckBox.Text" xml:space="preserve">
-    <value>Login automatically</value>
-  </data>
-  <data name="&gt;&gt;automaticLoginCheckBox.Name" xml:space="preserve">
-    <value>automaticLoginCheckBox</value>
-  </data>
-  <data name="&gt;&gt;automaticLoginCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;automaticLoginCheckBox.Parent" xml:space="preserve">
-    <value>cellOptionsGroupBox</value>
-  </data>
-  <data name="&gt;&gt;automaticLoginCheckBox.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="cellOptionsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>174, 7</value>
-  </data>
-  <data name="cellOptionsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>408, 252</value>
-  </data>
-  <data name="cellOptionsGroupBox.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="cellOptionsGroupBox.Text" xml:space="preserve">
-    <value>Log on Options for [Cell]</value>
-  </data>
   <data name="&gt;&gt;cellOptionsGroupBox.Name" xml:space="preserve">
     <value>cellOptionsGroupBox</value>
   </data>
@@ -2333,18 +2231,6 @@
   </data>
   <data name="&gt;&gt;cellOptionsGroupBox.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="cellsTreeView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left</value>
-  </data>
-  <data name="cellsTreeView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 7</value>
-  </data>
-  <data name="cellsTreeView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 320</value>
-  </data>
-  <data name="cellsTreeView.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;cellsTreeView.Name" xml:space="preserve">
     <value>cellsTreeView</value>
@@ -3594,399 +3480,6 @@
   <data name="&gt;&gt;cacheSizeLabel.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="callbackPortTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>139, 200</value>
-  </data>
-  <data name="callbackPortTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="callbackPortTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;callbackPortTextBox.Name" xml:space="preserve">
-    <value>callbackPortTextBox</value>
-  </data>
-  <data name="&gt;&gt;callbackPortTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;callbackPortTextBox.Parent" xml:space="preserve">
-    <value>cacheManagerTabPage</value>
-  </data>
-  <data name="&gt;&gt;callbackPortTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="callbackPortLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="callbackPortLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 203</value>
-  </data>
-  <data name="callbackPortLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 13</value>
-  </data>
-  <data name="callbackPortLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="callbackPortLabel.Text" xml:space="preserve">
-    <value>Callback port</value>
-  </data>
-  <data name="&gt;&gt;callbackPortLabel.Name" xml:space="preserve">
-    <value>callbackPortLabel</value>
-  </data>
-  <data name="&gt;&gt;callbackPortLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;callbackPortLabel.Parent" xml:space="preserve">
-    <value>cacheManagerTabPage</value>
-  </data>
-  <data name="&gt;&gt;callbackPortLabel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="hiddenDotFilesCheckBox.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="hiddenDotFilesCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 183</value>
-  </data>
-  <data name="hiddenDotFilesCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 17</value>
-  </data>
-  <data name="hiddenDotFilesCheckBox.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="hiddenDotFilesCheckBox.Text" xml:space="preserve">
-    <value>Mark dot-files as hidden</value>
-  </data>
-  <data name="&gt;&gt;hiddenDotFilesCheckBox.Name" xml:space="preserve">
-    <value>hiddenDotFilesCheckBox</value>
-  </data>
-  <data name="&gt;&gt;hiddenDotFilesCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hiddenDotFilesCheckBox.Parent" xml:space="preserve">
-    <value>cacheManagerTabPage</value>
-  </data>
-  <data name="&gt;&gt;hiddenDotFilesCheckBox.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="ansiFilenamesCheckBox.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="ansiFilenamesCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 160</value>
-  </data>
-  <data name="ansiFilenamesCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 17</value>
-  </data>
-  <data name="ansiFilenamesCheckBox.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="ansiFilenamesCheckBox.Text" xml:space="preserve">
-    <value>Store ANSI file names</value>
-  </data>
-  <data name="&gt;&gt;ansiFilenamesCheckBox.Name" xml:space="preserve">
-    <value>ansiFilenamesCheckBox</value>
-  </data>
-  <data name="&gt;&gt;ansiFilenamesCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ansiFilenamesCheckBox.Parent" xml:space="preserve">
-    <value>cacheManagerTabPage</value>
-  </data>
-  <data name="&gt;&gt;ansiFilenamesCheckBox.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="encryptCheckBox.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="encryptCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 137</value>
-  </data>
-  <data name="encryptCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 17</value>
-  </data>
-  <data name="encryptCheckBox.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="encryptCheckBox.Text" xml:space="preserve">
-    <value>Encrypt communication</value>
-  </data>
-  <data name="&gt;&gt;encryptCheckBox.Name" xml:space="preserve">
-    <value>encryptCheckBox</value>
-  </data>
-  <data name="&gt;&gt;encryptCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;encryptCheckBox.Parent" xml:space="preserve">
-    <value>cacheManagerTabPage</value>
-  </data>
-  <data name="&gt;&gt;encryptCheckBox.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="sysnamesTextbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>139, 111</value>
-  </data>
-  <data name="sysnamesTextbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="sysnamesTextbox.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;sysnamesTextbox.Name" xml:space="preserve">
-    <value>sysnamesTextbox</value>
-  </data>
-  <data name="&gt;&gt;sysnamesTextbox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sysnamesTextbox.Parent" xml:space="preserve">
-    <value>cacheManagerTabPage</value>
-  </data>
-  <data name="&gt;&gt;sysnamesTextbox.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="sysnamesLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="sysnamesLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 114</value>
-  </data>
-  <data name="sysnamesLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 13</value>
-  </data>
-  <data name="sysnamesLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="sysnamesLabel.Text" xml:space="preserve">
-    <value>AFS sysnames</value>
-  </data>
-  <data name="&gt;&gt;sysnamesLabel.Name" xml:space="preserve">
-    <value>sysnamesLabel</value>
-  </data>
-  <data name="&gt;&gt;sysnamesLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sysnamesLabel.Parent" xml:space="preserve">
-    <value>cacheManagerTabPage</value>
-  </data>
-  <data name="&gt;&gt;sysnamesLabel.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="rootMountPointTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>139, 85</value>
-  </data>
-  <data name="rootMountPointTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="rootMountPointTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;rootMountPointTextBox.Name" xml:space="preserve">
-    <value>rootMountPointTextBox</value>
-  </data>
-  <data name="&gt;&gt;rootMountPointTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rootMountPointTextBox.Parent" xml:space="preserve">
-    <value>cacheManagerTabPage</value>
-  </data>
-  <data name="&gt;&gt;rootMountPointTextBox.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="rootMountPointLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="rootMountPointLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 88</value>
-  </data>
-  <data name="rootMountPointLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 13</value>
-  </data>
-  <data name="rootMountPointLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="rootMountPointLabel.Text" xml:space="preserve">
-    <value>Name of root mount point</value>
-  </data>
-  <data name="&gt;&gt;rootMountPointLabel.Name" xml:space="preserve">
-    <value>rootMountPointLabel</value>
-  </data>
-  <data name="&gt;&gt;rootMountPointLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rootMountPointLabel.Parent" xml:space="preserve">
-    <value>cacheManagerTabPage</value>
-  </data>
-  <data name="&gt;&gt;rootMountPointLabel.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="rootVolumeTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>139, 59</value>
-  </data>
-  <data name="rootVolumeTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="rootVolumeTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;rootVolumeTextBox.Name" xml:space="preserve">
-    <value>rootVolumeTextBox</value>
-  </data>
-  <data name="&gt;&gt;rootVolumeTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rootVolumeTextBox.Parent" xml:space="preserve">
-    <value>cacheManagerTabPage</value>
-  </data>
-  <data name="&gt;&gt;rootVolumeTextBox.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="rootVolumeLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="rootVolumeLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 62</value>
-  </data>
-  <data name="rootVolumeLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 13</value>
-  </data>
-  <data name="rootVolumeLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="rootVolumeLabel.Text" xml:space="preserve">
-    <value>Root volume</value>
-  </data>
-  <data name="&gt;&gt;rootVolumeLabel.Name" xml:space="preserve">
-    <value>rootVolumeLabel</value>
-  </data>
-  <data name="&gt;&gt;rootVolumeLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rootVolumeLabel.Parent" xml:space="preserve">
-    <value>cacheManagerTabPage</value>
-  </data>
-  <data name="&gt;&gt;rootVolumeLabel.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="defaultCellTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>139, 33</value>
-  </data>
-  <data name="defaultCellTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="defaultCellTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;defaultCellTextBox.Name" xml:space="preserve">
-    <value>defaultCellTextBox</value>
-  </data>
-  <data name="&gt;&gt;defaultCellTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;defaultCellTextBox.Parent" xml:space="preserve">
-    <value>cacheManagerTabPage</value>
-  </data>
-  <data name="&gt;&gt;defaultCellTextBox.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="defaultCellLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="defaultCellLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 36</value>
-  </data>
-  <data name="defaultCellLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 13</value>
-  </data>
-  <data name="defaultCellLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="defaultCellLabel.Text" xml:space="preserve">
-    <value>Default cell</value>
-  </data>
-  <data name="&gt;&gt;defaultCellLabel.Name" xml:space="preserve">
-    <value>defaultCellLabel</value>
-  </data>
-  <data name="&gt;&gt;defaultCellLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;defaultCellLabel.Parent" xml:space="preserve">
-    <value>cacheManagerTabPage</value>
-  </data>
-  <data name="&gt;&gt;defaultCellLabel.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="cellServDBBrowseButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>245, 5</value>
-  </data>
-  <data name="cellServDBBrowseButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="cellServDBBrowseButton.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="cellServDBBrowseButton.Text" xml:space="preserve">
-    <value>Browse…</value>
-  </data>
-  <data name="&gt;&gt;cellServDBBrowseButton.Name" xml:space="preserve">
-    <value>cellServDBBrowseButton</value>
-  </data>
-  <data name="&gt;&gt;cellServDBBrowseButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cellServDBBrowseButton.Parent" xml:space="preserve">
-    <value>cacheManagerTabPage</value>
-  </data>
-  <data name="&gt;&gt;cellServDBBrowseButton.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="cellServDBTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>139, 7</value>
-  </data>
-  <data name="cellServDBTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="cellServDBTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;cellServDBTextBox.Name" xml:space="preserve">
-    <value>cellServDBTextBox</value>
-  </data>
-  <data name="&gt;&gt;cellServDBTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cellServDBTextBox.Parent" xml:space="preserve">
-    <value>cacheManagerTabPage</value>
-  </data>
-  <data name="&gt;&gt;cellServDBTextBox.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="cellServDBLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="cellServDBLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 10</value>
-  </data>
-  <data name="cellServDBLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 13</value>
-  </data>
-  <data name="cellServDBLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="cellServDBLabel.Text" xml:space="preserve">
-    <value>CellServDB directory</value>
-  </data>
-  <data name="&gt;&gt;cellServDBLabel.Name" xml:space="preserve">
-    <value>cellServDBLabel</value>
-  </data>
-  <data name="&gt;&gt;cellServDBLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cellServDBLabel.Parent" xml:space="preserve">
-    <value>cacheManagerTabPage</value>
-  </data>
-  <data name="&gt;&gt;cellServDBLabel.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
   <data name="freelanceRemoveButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>507, 283</value>
   </data>
@@ -4599,6 +4092,414 @@
   <data name="rankColumn.HeaderText" xml:space="preserve">
     <value>Rank</value>
   </data>
+  <data name="newDomainButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="newDomainButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 290</value>
+  </data>
+  <data name="newDomainButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 23</value>
+  </data>
+  <data name="newDomainButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="newDomainButton.Text" xml:space="preserve">
+    <value>New domain…</value>
+  </data>
+  <data name="&gt;&gt;newDomainButton.Name" xml:space="preserve">
+    <value>newDomainButton</value>
+  </data>
+  <data name="&gt;&gt;newDomainButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;newDomainButton.Parent" xml:space="preserve">
+    <value>logonOptionsTabPage</value>
+  </data>
+  <data name="&gt;&gt;newDomainButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="preserveTokensCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="preserveTokensCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 266</value>
+  </data>
+  <data name="preserveTokensCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 17</value>
+  </data>
+  <data name="preserveTokensCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="preserveTokensCheckBox.Text" xml:space="preserve">
+    <value>Preserve tokens during log off</value>
+  </data>
+  <data name="&gt;&gt;preserveTokensCheckBox.Name" xml:space="preserve">
+    <value>preserveTokensCheckBox</value>
+  </data>
+  <data name="&gt;&gt;preserveTokensCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;preserveTokensCheckBox.Parent" xml:space="preserve">
+    <value>logonOptionsTabPage</value>
+  </data>
+  <data name="&gt;&gt;preserveTokensCheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cellsUpdateButton.Name" xml:space="preserve">
+    <value>cellsUpdateButton</value>
+  </data>
+  <data name="&gt;&gt;cellsUpdateButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cellsUpdateButton.Parent" xml:space="preserve">
+    <value>cellOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;cellsUpdateButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cellsRemoveButton.Name" xml:space="preserve">
+    <value>cellsRemoveButton</value>
+  </data>
+  <data name="&gt;&gt;cellsRemoveButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cellsRemoveButton.Parent" xml:space="preserve">
+    <value>cellOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;cellsRemoveButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cellsTextBox.Name" xml:space="preserve">
+    <value>cellsTextBox</value>
+  </data>
+  <data name="&gt;&gt;cellsTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cellsTextBox.Parent" xml:space="preserve">
+    <value>cellOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;cellsTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cellsLabel.Name" xml:space="preserve">
+    <value>cellsLabel</value>
+  </data>
+  <data name="&gt;&gt;cellsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cellsLabel.Parent" xml:space="preserve">
+    <value>cellOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;cellsLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;scriptTextBox.Name" xml:space="preserve">
+    <value>scriptTextBox</value>
+  </data>
+  <data name="&gt;&gt;scriptTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scriptTextBox.Parent" xml:space="preserve">
+    <value>cellOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;scriptTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;scriptLabel.Name" xml:space="preserve">
+    <value>scriptLabel</value>
+  </data>
+  <data name="&gt;&gt;scriptLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scriptLabel.Parent" xml:space="preserve">
+    <value>cellOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;scriptLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;loginFailGroupBox.Name" xml:space="preserve">
+    <value>loginFailGroupBox</value>
+  </data>
+  <data name="&gt;&gt;loginFailGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginFailGroupBox.Parent" xml:space="preserve">
+    <value>cellOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;loginFailGroupBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;automaticLoginCheckBox.Name" xml:space="preserve">
+    <value>automaticLoginCheckBox</value>
+  </data>
+  <data name="&gt;&gt;automaticLoginCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;automaticLoginCheckBox.Parent" xml:space="preserve">
+    <value>cellOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;automaticLoginCheckBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cellOptionsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 7</value>
+  </data>
+  <data name="cellOptionsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>408, 252</value>
+  </data>
+  <data name="cellOptionsGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cellOptionsGroupBox.Text" xml:space="preserve">
+    <value>Log on Options for [Cell]</value>
+  </data>
+  <data name="&gt;&gt;cellOptionsGroupBox.Name" xml:space="preserve">
+    <value>cellOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;cellOptionsGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cellOptionsGroupBox.Parent" xml:space="preserve">
+    <value>logonOptionsTabPage</value>
+  </data>
+  <data name="&gt;&gt;cellOptionsGroupBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cellsUpdateButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 213</value>
+  </data>
+  <data name="cellsUpdateButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="cellsUpdateButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cellsUpdateButton.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;cellsUpdateButton.Name" xml:space="preserve">
+    <value>cellsUpdateButton</value>
+  </data>
+  <data name="&gt;&gt;cellsUpdateButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cellsUpdateButton.Parent" xml:space="preserve">
+    <value>cellOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;cellsUpdateButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cellsRemoveButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 213</value>
+  </data>
+  <data name="cellsRemoveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="cellsRemoveButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cellsRemoveButton.Text" xml:space="preserve">
+    <value>Remove…</value>
+  </data>
+  <data name="&gt;&gt;cellsRemoveButton.Name" xml:space="preserve">
+    <value>cellsRemoveButton</value>
+  </data>
+  <data name="&gt;&gt;cellsRemoveButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cellsRemoveButton.Parent" xml:space="preserve">
+    <value>cellOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;cellsRemoveButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cellsTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 186</value>
+  </data>
+  <data name="cellsTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 20</value>
+  </data>
+  <data name="cellsTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cellsTextBox.Name" xml:space="preserve">
+    <value>cellsTextBox</value>
+  </data>
+  <data name="&gt;&gt;cellsTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cellsTextBox.Parent" xml:space="preserve">
+    <value>cellOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;cellsTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cellsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cellsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 189</value>
+  </data>
+  <data name="cellsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="cellsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cellsLabel.Text" xml:space="preserve">
+    <value>Cells</value>
+  </data>
+  <data name="&gt;&gt;cellsLabel.Name" xml:space="preserve">
+    <value>cellsLabel</value>
+  </data>
+  <data name="&gt;&gt;cellsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cellsLabel.Parent" xml:space="preserve">
+    <value>cellOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;cellsLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="scriptTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 160</value>
+  </data>
+  <data name="scriptTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 20</value>
+  </data>
+  <data name="scriptTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;scriptTextBox.Name" xml:space="preserve">
+    <value>scriptTextBox</value>
+  </data>
+  <data name="&gt;&gt;scriptTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scriptTextBox.Parent" xml:space="preserve">
+    <value>cellOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;scriptTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="scriptLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="scriptLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 163</value>
+  </data>
+  <data name="scriptLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="scriptLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="scriptLabel.Text" xml:space="preserve">
+    <value>Log on Script</value>
+  </data>
+  <data name="&gt;&gt;scriptLabel.Name" xml:space="preserve">
+    <value>scriptLabel</value>
+  </data>
+  <data name="&gt;&gt;scriptLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scriptLabel.Parent" xml:space="preserve">
+    <value>cellOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;scriptLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="loginFailGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="loginFailGroupBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;quitTextBox.Name" xml:space="preserve">
+    <value>quitTextBox</value>
+  </data>
+  <data name="&gt;&gt;quitTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quitTextBox.Parent" xml:space="preserve">
+    <value>loginFailGroupBox</value>
+  </data>
+  <data name="&gt;&gt;quitTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;quitLabel.Name" xml:space="preserve">
+    <value>quitLabel</value>
+  </data>
+  <data name="&gt;&gt;quitLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quitLabel.Parent" xml:space="preserve">
+    <value>loginFailGroupBox</value>
+  </data>
+  <data name="&gt;&gt;quitLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;retryTextBox.Name" xml:space="preserve">
+    <value>retryTextBox</value>
+  </data>
+  <data name="&gt;&gt;retryTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;retryTextBox.Parent" xml:space="preserve">
+    <value>loginFailGroupBox</value>
+  </data>
+  <data name="&gt;&gt;retryTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;retryLabel.Name" xml:space="preserve">
+    <value>retryLabel</value>
+  </data>
+  <data name="&gt;&gt;retryLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;retryLabel.Parent" xml:space="preserve">
+    <value>loginFailGroupBox</value>
+  </data>
+  <data name="&gt;&gt;retryLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;silenceErrorsCheckBox.Name" xml:space="preserve">
+    <value>silenceErrorsCheckBox</value>
+  </data>
+  <data name="&gt;&gt;silenceErrorsCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;silenceErrorsCheckBox.Parent" xml:space="preserve">
+    <value>loginFailGroupBox</value>
+  </data>
+  <data name="&gt;&gt;silenceErrorsCheckBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="loginFailGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 43</value>
+  </data>
+  <data name="loginFailGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 110</value>
+  </data>
+  <data name="loginFailGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="loginFailGroupBox.Text" xml:space="preserve">
+    <value>If automatic login fails…</value>
+  </data>
+  <data name="&gt;&gt;loginFailGroupBox.Name" xml:space="preserve">
+    <value>loginFailGroupBox</value>
+  </data>
+  <data name="&gt;&gt;loginFailGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginFailGroupBox.Parent" xml:space="preserve">
+    <value>cellOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;loginFailGroupBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
   <data name="quitTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>68, 71</value>
   </data>
@@ -4721,6 +4622,57 @@
   </data>
   <data name="&gt;&gt;silenceErrorsCheckBox.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="automaticLoginCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="automaticLoginCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="automaticLoginCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
+  </data>
+  <data name="automaticLoginCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="automaticLoginCheckBox.Text" xml:space="preserve">
+    <value>Login automatically</value>
+  </data>
+  <data name="&gt;&gt;automaticLoginCheckBox.Name" xml:space="preserve">
+    <value>automaticLoginCheckBox</value>
+  </data>
+  <data name="&gt;&gt;automaticLoginCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;automaticLoginCheckBox.Parent" xml:space="preserve">
+    <value>cellOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;automaticLoginCheckBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cellsTreeView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="cellsTreeView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
+  </data>
+  <data name="cellsTreeView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 320</value>
+  </data>
+  <data name="cellsTreeView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cellsTreeView.Name" xml:space="preserve">
+    <value>cellsTreeView</value>
+  </data>
+  <data name="&gt;&gt;cellsTreeView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cellsTreeView.Parent" xml:space="preserve">
+    <value>logonOptionsTabPage</value>
+  </data>
+  <data name="&gt;&gt;cellsTreeView.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="debugCallsCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
