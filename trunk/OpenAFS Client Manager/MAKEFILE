@@ -1,4 +1,3 @@
-#Builds everything.
 "OpenAFS Client Manager (x86).msi": "manager-x86.wixobj" "OpenAFS Client Manager x86.dll" License.rtf
 	"$(WIX)light" -pedantic:legendary -wx -w0 -loc "$(WIX)WixUI_en-us.wxl" -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.NetFxCompiler, WixNetFxExtension" -out $@ manager-x86.wixobj "$(WIX)netfx.wixlib" "$(WIX)wixui.wixlib"
 
