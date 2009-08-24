@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2003/01/wi" xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension" xmlns:mmc="http://schemas.microsoft.com/wix/MmcExtension" RequiredVersion="2.0.5805.0">
+	<Product Id="609ACF90-E901-490A-B2D9-702245E69C64" Name="OpenAFS Client Manager" Language="1033" Version="1.0.0.0" Manufacturer="Brant Gurganus" UpgradeCode="0A231D1A-8C07-4987-9A5B-08B096F242E2">
+    <Package Id="BEA15EA6-EE7C-4D89-BF34-8C4430714162" Comments="This is the package consisting of the OpenAFS Client Manager MMC Snapin." Description="Allows management of the OpenAFS client through a Microsoft Management Console Snapin." Compressed="yes" InstallerVersion="200" Keywords="openafs, afs, mmc, snapin, installer" Manufacturer="Brant Gurganus" Platforms="Intel" ReadOnly="yes"/>
+    <Property Id="MMC3">
+      <DirectorySearch Id="MMC3Path" Path="[SystemFolder]">
+        <FileSearch Id="MMC3Installed" Name="mmc.exe" MinVersion="5.2.3790.2612"/>
+      </DirectorySearch>
+    </Property>
+    <PropertyRef Id="NETFRAMEWORK20"/>
+    <Condition Message=".Net 2.0 is required."><![CDATA[NETFRAMEWORK20]]></Condition>
+    <Condition Message="MMC 3.0 is required."><![CDATA[MMC3]]></Condition>
+    <!-- TODO: The cabinet of files should probably be signed at some point. -->
+		<Media Id="1" Cabinet="sources.cab" EmbedCab="yes" />
+    <UIRef Id="WixUI_Minimal"/>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="OpenAFS" Name="OpenAFS">
+          <Directory Id="Client" Name="Client">
+            <Directory Id="MMC" Name="MMC">
+              <Component Id="Snapin" DiskId="1" Guid="3D9B1E14-704B-46CC-B8D3-8BFD1D27702E" Win64="no">
+                <File Id="SnapinFile" Checksum="yes" LongName="OpenAFS Client Manager.dll" Name="manager.dll" Source="OpenAFS Client Manager.dll" KeyPath="yes" ProcessorArchitecture="x86" Vital="yes">
+                  <netfx:NativeImage Id="NativeSnapinFile" />
+                  <!-- TODO: Add the localizable resources for icons and such. -->
+                  <mmc:SnapIn Id="95E6D88A-832B-49DF-A8E1-BF4DD77F2897" AssemblyName="OpenAFS Client Manager" ClassType="OpenAFSClientManager.ManagerSnapIn" DefaultCulture="neutral" DefaultPublicKeyToken="65b48e3fe5f62ac8" DefaultVersion="1.0.0.0" Description="Manages the OpenAFS client." Name="OpenAFS Client Manager" Provider="Brant Gurganus" />
+                </File>
+              </Component>
+            </Directory>
+          </Directory>
+				</Directory>
+			</Directory>
+		</Directory>
+
+		<Feature Id="ProductFeature" Title="OpenAFS Snap-in" Level="1">
+			<ComponentRef Id="Snapin" />
+		</Feature>
+
+    <InstallExecuteSequence>
+      <Custom Action="mmcperf" After="InstallFinalize">VersionNT &lt; 600</Custom>
+    </InstallExecuteSequence>
+
+    <CustomAction Id="mmcperf" ExeCommand="[WindowsFolder]SYSTEM32\mmcperf.exe" Directory="MMC"/>
+	</Product>
+</Wix>
