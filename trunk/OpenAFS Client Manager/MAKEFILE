@@ -1,0 +1,12 @@
+#Builds everything.
+all: "OpenAFS Client Manager (x86).msi"
+
+"OpenAFS Client Manager (x86).msi": "manager-x86.wixobj" "OpenAFS Client Manager.dll"
+	"$(WIX)light" -pedantic:legendary -wx -w0 -loc "$(WIX)WixUI_en-us.wxl" -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.NetFxCompiler, WixNetFxExtension" -out $@ manager-x86.wixobj "$(WIX)netfx.wixlib" "$(WIX)wixui.wixlib"
+
+"manager-x86.wixobj": "Installer.wxs"
+	"$(WIX)candle" -pedantic:legendary -trace -wx -w0 -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.NetFxCompiler, WixNetFxExtension" -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.MmcCompiler, WixMMCExtension" -out $@ $**
+
+"OpenAFS Client Manager.dll": brantgurga.pfx "ManagerSnapin.cs" "ManagerFormView.cs" "ManagerControl.cs" "ManagerControl.Designer.cs" "Properties\AssemblyInfo.cs" "Properties\Resources.Designer.cs" "UnhandledStateException.cs" "GlobalSuppressions.cs"
+	csc /out:$@ /target:library /platform:x86 /warnaserror /warn:4 /checked /reference:"%ProgramFiles%\Reference Assemblies\Microsoft\mmc\v3.0\microsoft.managementconsole.dll" ManagerSnapin.cs ManagerFormView.cs ManagerControl.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs ManagerControl.Designer.cs UnhandledStateException.cs GlobalSuppressions.cs
+	sn -Ra "OpenAFS Client Manager.dll" brantgurga.pfx
