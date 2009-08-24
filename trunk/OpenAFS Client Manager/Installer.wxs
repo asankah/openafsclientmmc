@@ -19,7 +19,7 @@
           <Directory Id="Client" Name="Client">
             <Directory Id="MMC" Name="MMC">
               <Component Id="Snapin" DiskId="1" Guid="3D9B1E14-704B-46CC-B8D3-8BFD1D27702E" Win64="no">
-                <File Id="SnapinFile" Checksum="yes" LongName="OpenAFS Client Manager.dll" Name="manager.dll" Source="OpenAFS Client Manager.dll" KeyPath="yes" ProcessorArchitecture="x86" Vital="yes">
+                <File Id="SnapinFile" Checksum="yes" LongName="OpenAFS Client Manager.dll" Name="manager.dll" Source="OpenAFS Client Manager x86.dll" KeyPath="yes" ProcessorArchitecture="x86" Vital="yes">
                   <netfx:NativeImage Id="NativeSnapinFile" />
                   <!-- TODO: Add the localizable resources for icons and such. -->
                   <mmc:SnapIn Id="95E6D88A-832B-49DF-A8E1-BF4DD77F2897" AssemblyName="OpenAFS Client Manager" ClassType="OpenAFSClientManager.ManagerSnapIn" DefaultCulture="neutral" DefaultPublicKeyToken="65b48e3fe5f62ac8" DefaultVersion="1.0.0.0" Description="Manages the OpenAFS client." Name="OpenAFS Client Manager" Provider="Brant Gurganus" />
