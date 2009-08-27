@@ -1,19 +1,23 @@
-"OpenAFS Client Manager (x86).msi": "manager-x86.wixobj" "OpenAFS Client Manager x86.dll" License.rtf
+"OpenAFS Client Manager (x86).msi": "manager-x86.wixobj" "OpenAFS Client Manager x86.dll" License.rtf MAKEFILE
 	"$(WIX)light" -pedantic:legendary -wx -w0 -loc "$(WIX)WixUI_en-us.wxl" -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.NetFxCompiler, WixNetFxExtension" -out $@ manager-x86.wixobj "$(WIX)netfx.wixlib" "$(WIX)wixui.wixlib"
 
-"OpenAFS Client Manager (x64).msi": "manager-x64.wixobj" "OpenAFS Client Manager x64.dll" License.rtf
-	"$(WIX)light" -pedantic:legendary -wx -w0 -loc "$(WIX)WixUI_en-us.wxl" -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.NetFxCompiler, WixNetFxExtension" -out $@ manager-x86.wixobj "$(WIX)netfx.wixlib" "$(WIX)wixui.wixlib"
+"OpenAFS Client Manager (x64).msi": "manager-x64.wixobj" "OpenAFS Client Manager x64.dll" License.rtf MAKEFILE
+	"$(WIX)light" -pedantic:legendary -wx -w0 -loc "$(WIX)WixUI_en-us.wxl" -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.NetFxCompiler, WixNetFxExtension" -out $@ manager-x64.wixobj "$(WIX)netfx.wixlib" "$(WIX)wixui.wixlib"
 
-"manager-x86.wixobj": "Installer.wxs"
-	"$(WIX)candle" -dtarget=x86 -pedantic:legendary -trace -wx -w0 -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.NetFxCompiler, WixNetFxExtension" -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.MmcCompiler, WixMMCExtension" -out $@ $**
+"manager-x86.wixobj": "Installer.wxs" MAKEFILE
+	"$(WIX)candle" -dtarget=x86 -pedantic:legendary -trace -wx -w0 -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.NetFxCompiler, WixNetFxExtension" -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.MmcCompiler, WixMMCExtension" -out $@ "Installer.wxs"
 
-"manager-x64.wixobj": "Installer.wxs"
-	"$(WIX)candle" -dtarget=x64 -pedantic:legendary -trace -wx -w0 -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.NetFxCompiler, WixNetFxExtension" -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.MmcCompiler, WixMMCExtension" -out $@ $**
+"manager-x64.wixobj": "Installer.wxs" MAKEFILE
+	"$(WIX)candle" -dtarget=x64 -pedantic:legendary -trace -wx -w0 -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.NetFxCompiler, WixNetFxExtension" -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.MmcCompiler, WixMMCExtension" -out $@ "Installer.wxs"
+	
+"Resources.resources": "Properties\Resources.resx" "ManagerControl.resx"
+	resgen /usesourcepath /compile $** $@
+		
 
-"OpenAFS Client Manager x86.dll": brantgurga.pfx brantgurga.snk "ManagerSnapin.cs" "ManagerFormView.cs" "ManagerControl.cs" "ManagerControl.Designer.cs" "Properties\AssemblyInfo.cs" "Properties\Resources.Designer.cs" "UnhandledStateException.cs" "GlobalSuppressions.cs"
-	csc /out:$@ /keyfile:brantgurga.snk /delaysign /target:library /platform:x86 /warnaserror /warn:4 /checked /reference:"%ProgramFiles%\Reference Assemblies\Microsoft\mmc\v3.0\microsoft.managementconsole.dll" ManagerSnapin.cs ManagerFormView.cs ManagerControl.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs ManagerControl.Designer.cs UnhandledStateException.cs GlobalSuppressions.cs
+"OpenAFS Client Manager x86.dll": brantgurga.pfx brantgurga.snk "ManagerSnapin.cs" "ManagerFormView.cs" "ManagerControl.cs" "ManagerControl.Designer.cs" "Properties\AssemblyInfo.cs" "Properties\Resources.Designer.cs" "UnhandledStateException.cs" "GlobalSuppressions.cs" MAKEFILE "Resources.resources"
+	csc /out:$@ /keyfile:brantgurga.snk /delaysign /target:library /platform:x86 /warnaserror /warn:4 /checked /resource:"Resources.resources" /reference:"%ProgramFiles%\Reference Assemblies\Microsoft\mmc\v3.0\microsoft.managementconsole.dll" ManagerSnapin.cs ManagerFormView.cs ManagerControl.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs ManagerControl.Designer.cs UnhandledStateException.cs GlobalSuppressions.cs
 	sn -R "OpenAFS Client Manager x86.dll" brantgurga.pfx
 	
-"OpenAFS Client Manager x64.dll": brantgurga.pfx brantgurga.snk "ManagerSnapin.cs" "ManagerFormView.cs" "ManagerControl.cs" "ManagerControl.Designer.cs" "Properties\AssemblyInfo.cs" "Properties\Resources.Designer.cs" "UnhandledStateException.cs" "GlobalSuppressions.cs"
-	csc /out:$@ /keyfile:brantgurga.snk /delaysign /target:library /platform:x64 /warnaserror /warn:4 /checked /reference:"%ProgramFiles%\Reference Assemblies\Microsoft\mmc\v3.0\microsoft.managementconsole.dll" ManagerSnapin.cs ManagerFormView.cs ManagerControl.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs ManagerControl.Designer.cs UnhandledStateException.cs GlobalSuppressions.cs
+"OpenAFS Client Manager x64.dll": brantgurga.pfx brantgurga.snk "ManagerSnapin.cs" "ManagerFormView.cs" "ManagerControl.cs" "ManagerControl.Designer.cs" "Properties\AssemblyInfo.cs" "Properties\Resources.Designer.cs" "UnhandledStateException.cs" "GlobalSuppressions.cs" MAKEFILE "Resources.resources"
+	csc /out:$@ /keyfile:brantgurga.snk /delaysign /target:library /platform:x64 /warnaserror /warn:4 /checked /resource:"Resources.resources" /reference:"%ProgramFiles(x86)%\Reference Assemblies\Microsoft\mmc\v3.0\microsoft.managementconsole.dll" ManagerSnapin.cs ManagerFormView.cs ManagerControl.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs ManagerControl.Designer.cs UnhandledStateException.cs GlobalSuppressions.cs
 	sn -R "OpenAFS Client Manager x64.dll" brantgurga.pfx
