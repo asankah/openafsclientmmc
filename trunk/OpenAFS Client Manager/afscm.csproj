@@ -7,10 +7,11 @@
     <SchemaVersion>2.0</SchemaVersion>
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
-    <AssemblyName>afscm</AssemblyName>
+    <AssemblyName>OpenAFSClientManager</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <RootNamespace>afscm</RootNamespace>
+    <RootNamespace>OpenAFSClientManager</RootNamespace>
+    <ApplicationIcon>OpenAFS.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -47,9 +48,6 @@
   <ItemGroup>
     <None Include="brantgurga.pfx" />
     <None Include="brantgurga.snk" />
-    <None Include="Installer.wxs" />
-    <None Include="License.rtf" />
-    <None Include="MAKEFILE" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GlobalSuppressions.cs" />
@@ -64,14 +62,23 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="UnhandledStateException.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ManagerControl.resx">
       <DependentUpon>ManagerControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="OpenAFS.ico" />
@@ -87,4 +94,7 @@
   <ProjectExtensions>
     <VisualStudio AllowExistingFolder="true" />
   </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\InstallUtil.exe "$(TargetPath)"</PostBuildEvent>
+  </PropertyGroup>
 </Project>

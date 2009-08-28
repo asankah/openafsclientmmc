@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManagerControl));
-            this.logoPictureBox = new System.Windows.Forms.PictureBox();
             this.cifsPage = new System.Windows.Forms.TabPage();
             this.cachingPolicyGroupBox = new System.Windows.Forms.GroupBox();
             this.removeButton = new System.Windows.Forms.Button();
@@ -183,7 +182,7 @@
             this.applyButton = new System.Windows.Forms.Button();
             this.clientServiceController = new System.ServiceProcess.ServiceController();
             this.browseFileDialog = new System.Windows.Forms.OpenFileDialog();
-            ((System.ComponentModel.ISupportInitialize)(this.logoPictureBox)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cifsPage.SuspendLayout();
             this.cachingPolicyGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cachingPolicyDataGridView)).BeginInit();
@@ -203,16 +202,8 @@
             this.loginFailGroupBox.SuspendLayout();
             this.diagnosticsTabPage.SuspendLayout();
             this.tracingGroupBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // logoPictureBox
-            // 
-            this.logoPictureBox.BackColor = System.Drawing.Color.White;
-            this.logoPictureBox.Image = global::OpenAFSClientManager.Properties.Resources.bannrbmp;
-            this.logoPictureBox.InitialImage = global::OpenAFSClientManager.Properties.Resources.bannrbmp;
-            resources.ApplyResources(this.logoPictureBox, "logoPictureBox");
-            this.logoPictureBox.Name = "logoPictureBox";
-            this.logoPictureBox.TabStop = false;
             // 
             // cifsPage
             // 
@@ -1197,16 +1188,22 @@
             // 
             this.clientServiceController.ServiceName = "TransarcAFSDaemon";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::OpenAFSClientManager.Properties.Resources.bannrbmp;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
             // ManagerControl
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.applyButton);
             this.Controls.Add(this.managerTabs);
-            this.Controls.Add(this.logoPictureBox);
             this.Name = "ManagerControl";
             this.Load += new System.EventHandler(this.ManagerControl_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.logoPictureBox)).EndInit();
             this.cifsPage.ResumeLayout(false);
             this.cifsPage.PerformLayout();
             this.cachingPolicyGroupBox.ResumeLayout(false);
@@ -1240,13 +1237,13 @@
             this.diagnosticsTabPage.PerformLayout();
             this.tracingGroupBox.ResumeLayout(false);
             this.tracingGroupBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox logoPictureBox;
         private System.Windows.Forms.TabPage cifsPage;
         private System.Windows.Forms.TabPage generalPage;
         private System.Windows.Forms.GroupBox clientServiceGroupBox;
@@ -1399,5 +1396,6 @@
         private System.Windows.Forms.Button resetLogButton;
         private System.Windows.Forms.Button saveLogButton;
         private System.Windows.Forms.CheckBox enableTracingCheckBox;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
