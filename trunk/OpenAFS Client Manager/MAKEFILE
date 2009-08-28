@@ -10,14 +10,16 @@
 "manager-x64.wixobj": "Installer.wxs" MAKEFILE
 	"$(WIX)candle" -dtarget=x64 -pedantic:legendary -trace -wx -w0 -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.NetFxCompiler, WixNetFxExtension" -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.MmcCompiler, WixMMCExtension" -out $@ "Installer.wxs"
 	
-"Resources.resources": "Properties\Resources.resx" "ManagerControl.resx"
-	resgen /usesourcepath /compile $** $@
-		
+"Properties\OpenAFSClientManager.Properties.Resources.resources": "Properties\Resources.resx" MAKEFILE "Resources\bannrbmp.bmp"
+	resgen /usesourcepath "Properties\Resources.resx" $@
+	
+"OpenAFSClientManager.ManagerControl.resources": "ManagerControl.resx" MAKEFILE
+	resgen /usesourcepath "ManagerControl.resx" $@
 
-"OpenAFS Client Manager x86.dll": brantgurga.pfx brantgurga.snk "ManagerSnapin.cs" "ManagerFormView.cs" "ManagerControl.cs" "ManagerControl.Designer.cs" "Properties\AssemblyInfo.cs" "Properties\Resources.Designer.cs" "UnhandledStateException.cs" "GlobalSuppressions.cs" MAKEFILE "Resources.resources"
-	csc /out:$@ /keyfile:brantgurga.snk /delaysign /target:library /platform:x86 /warnaserror /warn:4 /checked /resource:"Resources.resources" /reference:"%ProgramFiles%\Reference Assemblies\Microsoft\mmc\v3.0\microsoft.managementconsole.dll" ManagerSnapin.cs ManagerFormView.cs ManagerControl.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs ManagerControl.Designer.cs UnhandledStateException.cs GlobalSuppressions.cs
+"OpenAFS Client Manager x86.dll": brantgurga.pfx brantgurga.snk "ManagerSnapin.cs" "ManagerFormView.cs" "ManagerControl.cs" "ManagerControl.Designer.cs" "Properties\AssemblyInfo.cs" "Properties\Resources.Designer.cs" "UnhandledStateException.cs" "GlobalSuppressions.cs" MAKEFILE "Properties\OpenAFSClientManager.Properties.Resources.resources" "OpenAFSClientManager.ManagerControl.resources"
+	csc /out:$@ /keyfile:brantgurga.snk /delaysign /target:library /platform:x86 /warnaserror /warn:4 /checked /resource:"Properties\OpenAFSClientManager.Properties.Resources.resources" /resource:"OpenAFSClientManager.ManagerControl.resources" /reference:"%ProgramFiles%\Reference Assemblies\Microsoft\mmc\v3.0\microsoft.managementconsole.dll" ManagerSnapin.cs ManagerFormView.cs ManagerControl.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs ManagerControl.Designer.cs UnhandledStateException.cs GlobalSuppressions.cs
 	sn -R "OpenAFS Client Manager x86.dll" brantgurga.pfx
 	
-"OpenAFS Client Manager x64.dll": brantgurga.pfx brantgurga.snk "ManagerSnapin.cs" "ManagerFormView.cs" "ManagerControl.cs" "ManagerControl.Designer.cs" "Properties\AssemblyInfo.cs" "Properties\Resources.Designer.cs" "UnhandledStateException.cs" "GlobalSuppressions.cs" MAKEFILE "Resources.resources"
-	csc /out:$@ /keyfile:brantgurga.snk /delaysign /target:library /platform:x64 /warnaserror /warn:4 /checked /resource:"Resources.resources" /reference:"%ProgramFiles(x86)%\Reference Assemblies\Microsoft\mmc\v3.0\microsoft.managementconsole.dll" ManagerSnapin.cs ManagerFormView.cs ManagerControl.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs ManagerControl.Designer.cs UnhandledStateException.cs GlobalSuppressions.cs
+"OpenAFS Client Manager x64.dll": brantgurga.pfx brantgurga.snk "ManagerSnapin.cs" "ManagerFormView.cs" "ManagerControl.cs" "ManagerControl.Designer.cs" "Properties\AssemblyInfo.cs" "Properties\Resources.Designer.cs" "UnhandledStateException.cs" "GlobalSuppressions.cs" MAKEFILE "Properties\OpenAFSClientManager.Properties.Resources.resources" "OpenAFSClientManager.ManagerControl.resources"
+	csc /out:$@ /keyfile:brantgurga.snk /delaysign /target:library /platform:x64 /warnaserror /warn:4 /checked /resource:"Properties\OpenAFSClientManager.Properties.Resources.resources" /resource:"OpenAFSClientManager.ManagerControl.resources" /reference:"%ProgramFiles(x86)%\Reference Assemblies\Microsoft\mmc\v3.0\microsoft.managementconsole.dll" ManagerSnapin.cs ManagerFormView.cs ManagerControl.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs ManagerControl.Designer.cs UnhandledStateException.cs GlobalSuppressions.cs
 	sn -R "OpenAFS Client Manager x64.dll" brantgurga.pfx
