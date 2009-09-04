@@ -21,7 +21,7 @@
   <?else?>
   <?error Target not set.?>
   <?endif?>
-	<Product Id="????????-????-????-????-????????????" Name="OpenAFS Client Manager" Language="1033" Version="1.0.0.0" Manufacturer="Brant Gurganus" UpgradeCode="0A231D1A-8C07-4987-9A5B-08B096F242E2">
+	<Product Id="????????-????-????-????-????????????" Name="OpenAFS Client Manager" Language="1033" Version="$(var.version)" Manufacturer="Brant Gurganus" UpgradeCode="0A231D1A-8C07-4987-9A5B-08B096F242E2">
     <Package Id="????????-????-????-????-????????????" Comments="This is the package consisting of the OpenAFS Client Manager MMC Snapin." Description="Allows management of the OpenAFS client through a Microsoft Management Console Snapin." Compressed="yes" InstallerVersion="200" Keywords="openafs, afs, mmc, snapin, installer" Manufacturer="Brant Gurganus" Platforms="$(var.Platforms)" ReadOnly="yes"/>
     <Property Id="MMC3">
       <DirectorySearch Id="MMC3Path" Path="[SystemFolder]">
@@ -35,6 +35,9 @@
     <UIRef Id="WixUI_Minimal"/>
 		<Directory Id="TARGETDIR" Name="SourceDir">
       <Directory Id="AdminToolsFolder" />
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="OpenAFSShortcuts" Name="OpenAFS" />
+      </Directory>
 			<Directory Id="$(var.ProgramFiles)">
 				<Directory Id="OpenAFS" Name="OpenAFS">
           <Directory Id="Client" Name="Client">
@@ -46,7 +49,8 @@
                   <mmc:SnapIn Id="95E6D88A-832B-49DF-A8E1-BF4DD77F2897" AssemblyName="$(var.AssemblyName)" ClassType="OpenAFSClientManager.ManagerSnapIn" DefaultCulture="neutral" DefaultPublicKeyToken="65b48e3fe5f62ac8" DefaultVersion="1.0.0.0" Description="Manages the OpenAFS client." Name="OpenAFS Client Manager" Provider="Brant Gurganus" />
                 </File>
                 <File Id="ConsoleFile" Checksum="yes" LongName="OpenAFS Client Manager.msc" Name="manager.msc" Source="OpenAFS Client Manager.msc">
-                  <Shortcut Id="ConsoleFileShortcut" Directory="AdminToolsFolder" LongName="OpenAFS Client Manager.lnk" Name="manager.lnk" />
+                  <Shortcut Id="AdminToolsShortcut" Directory="AdminToolsFolder" LongName="OpenAFS Client Manager.lnk" Name="manager.lnk" />
+                  <Shortcut Id="StartMenuShortcut" Directory="OpenAFSShortcuts" LongName="OpenAFS Client Manager.lnk" Name="manager.lnk" />
                 </File>
               </Component>
             </Directory>
