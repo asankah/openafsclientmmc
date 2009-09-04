@@ -1,8 +1,10 @@
 VERSION=0.1.0.0
-"OpenAFS Client Manager $(VERSION) (x86).msi": "manager-x86.wixobj" "OpenAFS Client Manager x86.dll" License.rtf MAKEFILE "OpenAFS Client Manager.msc"
+all: "OpenAFS Client Manager $(VERSION) (x86).msi" "OpenAFS Client Manager $(VERSION) (x64).msi" MAKEFILE
+
+"OpenAFS Client Manager $(VERSION) (x86).msi": "manager-x86.wixobj" "OpenAFS Client Manager x86.dll" License.rtf MAKEFILE "OpenAFS Client Manager.msc" OpenAFS.ico
 	"$(WIX)\light" -pedantic:legendary -wx -w0 -loc "$(WIX)\WixUI_en-us.wxl" -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.NetFxCompiler, WixNetFxExtension" -out $@ manager-x86.wixobj "$(WIX)\netfx.wixlib" "$(WIX)\wixui.wixlib"
 
-"OpenAFS Client Manager $(VERSION) (x64).msi": "manager-x64.wixobj" "OpenAFS Client Manager x64.dll" License.rtf MAKEFILE "OpenAFS Client Manager.msc"
+"OpenAFS Client Manager $(VERSION) (x64).msi": "manager-x64.wixobj" "OpenAFS Client Manager x64.dll" License.rtf MAKEFILE "OpenAFS Client Manager.msc" OpenAFS.ico
 	"$(WIX)\light" -pedantic:legendary -wx -w0 -loc "$(WIX)\WixUI_en-us.wxl" -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.NetFxCompiler, WixNetFxExtension" -out $@ manager-x64.wixobj "$(WIX)\netfx.wixlib" "$(WIX)\wixui.wixlib"
 
 "manager-x86.wixobj": "Installer.wxs" MAKEFILE
