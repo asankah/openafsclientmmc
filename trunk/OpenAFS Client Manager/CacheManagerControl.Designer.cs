@@ -38,7 +38,6 @@
             this.cellServDBBrowseButton = new System.Windows.Forms.Button();
             this.cellServDBTextBox = new System.Windows.Forms.TextBox();
             this.cellServDBLabel = new System.Windows.Forms.Label();
-            this.ansiFilenamesCheckBox = new System.Windows.Forms.CheckBox();
             this.encryptCheckBox = new System.Windows.Forms.CheckBox();
             this.sysnamesTextbox = new System.Windows.Forms.TextBox();
             this.applyButton = new System.Windows.Forms.Button();
@@ -46,6 +45,7 @@
             this.sysnamesLabel = new System.Windows.Forms.Label();
             this.rootMountPointTextBox = new System.Windows.Forms.TextBox();
             this.rootMountPointLabel = new System.Windows.Forms.Label();
+            this.directoryBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.SuspendLayout();
             // 
             // callbackPortTextBox
@@ -83,6 +83,7 @@
             resources.ApplyResources(this.cellServDBBrowseButton, "cellServDBBrowseButton");
             this.cellServDBBrowseButton.Name = "cellServDBBrowseButton";
             this.cellServDBBrowseButton.UseVisualStyleBackColor = true;
+            this.cellServDBBrowseButton.Click += new System.EventHandler(this.cellServDBBrowseButton_Click);
             // 
             // cellServDBTextBox
             // 
@@ -93,12 +94,6 @@
             // 
             resources.ApplyResources(this.cellServDBLabel, "cellServDBLabel");
             this.cellServDBLabel.Name = "cellServDBLabel";
-            // 
-            // ansiFilenamesCheckBox
-            // 
-            resources.ApplyResources(this.ansiFilenamesCheckBox, "ansiFilenamesCheckBox");
-            this.ansiFilenamesCheckBox.Name = "ansiFilenamesCheckBox";
-            this.ansiFilenamesCheckBox.UseVisualStyleBackColor = true;
             // 
             // encryptCheckBox
             // 
@@ -116,6 +111,7 @@
             resources.ApplyResources(this.applyButton, "applyButton");
             this.applyButton.Name = "applyButton";
             this.applyButton.UseVisualStyleBackColor = true;
+            this.applyButton.Click += new System.EventHandler(this.applyButton_Click);
             // 
             // hiddenDotFilesCheckBox
             // 
@@ -151,7 +147,6 @@
             this.Controls.Add(this.cellServDBBrowseButton);
             this.Controls.Add(this.cellServDBTextBox);
             this.Controls.Add(this.cellServDBLabel);
-            this.Controls.Add(this.ansiFilenamesCheckBox);
             this.Controls.Add(this.encryptCheckBox);
             this.Controls.Add(this.sysnamesTextbox);
             this.Controls.Add(this.applyButton);
@@ -160,6 +155,7 @@
             this.Controls.Add(this.rootMountPointTextBox);
             this.Controls.Add(this.rootMountPointLabel);
             this.Name = "CacheManagerControl";
+            this.Load += new System.EventHandler(this.CacheManagerControl_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -176,7 +172,6 @@
         private System.Windows.Forms.Button cellServDBBrowseButton;
         private System.Windows.Forms.TextBox cellServDBTextBox;
         private System.Windows.Forms.Label cellServDBLabel;
-        private System.Windows.Forms.CheckBox ansiFilenamesCheckBox;
         private System.Windows.Forms.CheckBox encryptCheckBox;
         private System.Windows.Forms.TextBox sysnamesTextbox;
         private System.Windows.Forms.Button applyButton;
@@ -184,5 +179,6 @@
         private System.Windows.Forms.Label sysnamesLabel;
         private System.Windows.Forms.TextBox rootMountPointTextBox;
         private System.Windows.Forms.Label rootMountPointLabel;
+        private System.Windows.Forms.FolderBrowserDialog directoryBrowserDialog;
     }
 }

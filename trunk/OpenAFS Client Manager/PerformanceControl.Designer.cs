@@ -56,7 +56,6 @@
             this.chunkSizeTextBox = new System.Windows.Forms.TextBox();
             this.validateCacheLabel = new System.Windows.Forms.Label();
             this.chunkSizeLabel = new System.Windows.Forms.Label();
-            this.nonPersistentCachingCheckBox = new System.Windows.Forms.CheckBox();
             this.backgroundDaemonsTextBox = new System.Windows.Forms.TextBox();
             this.browseButton = new System.Windows.Forms.Button();
             this.backgroundDaemonsLabel = new System.Windows.Forms.Label();
@@ -220,12 +219,6 @@
             resources.ApplyResources(this.chunkSizeLabel, "chunkSizeLabel");
             this.chunkSizeLabel.Name = "chunkSizeLabel";
             // 
-            // nonPersistentCachingCheckBox
-            // 
-            resources.ApplyResources(this.nonPersistentCachingCheckBox, "nonPersistentCachingCheckBox");
-            this.nonPersistentCachingCheckBox.Name = "nonPersistentCachingCheckBox";
-            this.nonPersistentCachingCheckBox.UseVisualStyleBackColor = true;
-            // 
             // backgroundDaemonsTextBox
             // 
             resources.ApplyResources(this.backgroundDaemonsTextBox, "backgroundDaemonsTextBox");
@@ -277,7 +270,6 @@
             resources.ApplyResources(this.cacheGroupBox, "cacheGroupBox");
             this.cacheGroupBox.Controls.Add(this.validateCacheComboBox);
             this.cacheGroupBox.Controls.Add(this.validateCacheLabel);
-            this.cacheGroupBox.Controls.Add(this.nonPersistentCachingCheckBox);
             this.cacheGroupBox.Controls.Add(this.browseButton);
             this.cacheGroupBox.Controls.Add(this.cacheLocationTextBox);
             this.cacheGroupBox.Controls.Add(this.cacheLocationLabel);
@@ -349,7 +341,6 @@
         private System.Windows.Forms.TextBox chunkSizeTextBox;
         private System.Windows.Forms.Label validateCacheLabel;
         private System.Windows.Forms.Label chunkSizeLabel;
-        private System.Windows.Forms.CheckBox nonPersistentCachingCheckBox;
         private System.Windows.Forms.TextBox backgroundDaemonsTextBox;
         private System.Windows.Forms.Button browseButton;
         private System.Windows.Forms.Label backgroundDaemonsLabel;

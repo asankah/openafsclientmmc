@@ -119,7 +119,7 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="callbackPortTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 232</value>
+    <value>145, 181</value>
   </data>
   <data name="callbackPortTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -148,7 +148,7 @@
     <value>NoControl</value>
   </data>
   <data name="callbackPortLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>117, 235</value>
+    <value>13, 184</value>
   </data>
   <data name="callbackPortLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 13</value>
@@ -172,7 +172,7 @@
     <value>1</value>
   </data>
   <data name="rootVolumeTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 91</value>
+    <value>145, 63</value>
   </data>
   <data name="rootVolumeTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -199,7 +199,7 @@
     <value>NoControl</value>
   </data>
   <data name="rootVolumeLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>117, 94</value>
+    <value>13, 66</value>
   </data>
   <data name="rootVolumeLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 13</value>
@@ -223,7 +223,7 @@
     <value>3</value>
   </data>
   <data name="defaultCellTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 65</value>
+    <value>145, 37</value>
   </data>
   <data name="defaultCellTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -250,7 +250,7 @@
     <value>NoControl</value>
   </data>
   <data name="defaultCellLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>117, 68</value>
+    <value>13, 40</value>
   </data>
   <data name="defaultCellLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 13</value>
@@ -277,7 +277,7 @@
     <value>NoControl</value>
   </data>
   <data name="cellServDBBrowseButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>355, 37</value>
+    <value>251, 9</value>
   </data>
   <data name="cellServDBBrowseButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -301,7 +301,7 @@
     <value>6</value>
   </data>
   <data name="cellServDBTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 39</value>
+    <value>145, 11</value>
   </data>
   <data name="cellServDBTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -328,7 +328,7 @@
     <value>NoControl</value>
   </data>
   <data name="cellServDBLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>117, 42</value>
+    <value>13, 14</value>
   </data>
   <data name="cellServDBLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 13</value>
@@ -351,36 +351,6 @@
   <data name="&gt;&gt;cellServDBLabel.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="ansiFilenamesCheckBox.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="ansiFilenamesCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="ansiFilenamesCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 192</value>
-  </data>
-  <data name="ansiFilenamesCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 17</value>
-  </data>
-  <data name="ansiFilenamesCheckBox.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="ansiFilenamesCheckBox.Text" xml:space="preserve">
-    <value>Store ANSI file names</value>
-  </data>
-  <data name="&gt;&gt;ansiFilenamesCheckBox.Name" xml:space="preserve">
-    <value>ansiFilenamesCheckBox</value>
-  </data>
-  <data name="&gt;&gt;ansiFilenamesCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ansiFilenamesCheckBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ansiFilenamesCheckBox.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
   <data name="encryptCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -388,7 +358,7 @@
     <value>NoControl</value>
   </data>
   <data name="encryptCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 169</value>
+    <value>16, 141</value>
   </data>
   <data name="encryptCheckBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>136, 17</value>
@@ -409,10 +379,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;encryptCheckBox.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>9</value>
   </data>
   <data name="sysnamesTextbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 143</value>
+    <value>145, 115</value>
   </data>
   <data name="sysnamesTextbox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -430,7 +400,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;sysnamesTextbox.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>10</value>
   </data>
   <data name="applyButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -439,7 +409,7 @@
     <value>NoControl</value>
   </data>
   <data name="applyButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>630, 456</value>
+    <value>291, 286</value>
   </data>
   <data name="applyButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -460,7 +430,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;applyButton.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>11</value>
   </data>
   <data name="hiddenDotFilesCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -469,7 +439,7 @@
     <value>NoControl</value>
   </data>
   <data name="hiddenDotFilesCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 215</value>
+    <value>16, 164</value>
   </data>
   <data name="hiddenDotFilesCheckBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>138, 17</value>
@@ -490,7 +460,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;hiddenDotFilesCheckBox.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>12</value>
   </data>
   <data name="sysnamesLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -499,7 +469,7 @@
     <value>NoControl</value>
   </data>
   <data name="sysnamesLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>117, 146</value>
+    <value>13, 118</value>
   </data>
   <data name="sysnamesLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 13</value>
@@ -520,10 +490,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;sysnamesLabel.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>13</value>
   </data>
   <data name="rootMountPointTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 117</value>
+    <value>145, 89</value>
   </data>
   <data name="rootMountPointTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -541,7 +511,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rootMountPointTextBox.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>14</value>
   </data>
   <data name="rootMountPointLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -550,7 +520,7 @@
     <value>NoControl</value>
   </data>
   <data name="rootMountPointLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>117, 120</value>
+    <value>13, 92</value>
   </data>
   <data name="rootMountPointLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 13</value>
@@ -571,8 +541,11 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rootMountPointLabel.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>15</value>
   </data>
+  <metadata name="directoryBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -581,6 +554,12 @@
   </data>
   <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
     <value>823, 516</value>
+  </data>
+  <data name="&gt;&gt;directoryBrowserDialog.Name" xml:space="preserve">
+    <value>directoryBrowserDialog</value>
+  </data>
+  <data name="&gt;&gt;directoryBrowserDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>CacheManagerControl</value>

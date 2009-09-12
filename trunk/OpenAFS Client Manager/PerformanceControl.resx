@@ -816,36 +816,6 @@
   <data name="&gt;&gt;chunkSizeLabel.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="nonPersistentCachingCheckBox.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="nonPersistentCachingCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="nonPersistentCachingCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 37</value>
-  </data>
-  <data name="nonPersistentCachingCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 17</value>
-  </data>
-  <data name="nonPersistentCachingCheckBox.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="nonPersistentCachingCheckBox.Text" xml:space="preserve">
-    <value>Use non-persistent caching</value>
-  </data>
-  <data name="&gt;&gt;nonPersistentCachingCheckBox.Name" xml:space="preserve">
-    <value>nonPersistentCachingCheckBox</value>
-  </data>
-  <data name="&gt;&gt;nonPersistentCachingCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nonPersistentCachingCheckBox.Parent" xml:space="preserve">
-    <value>cacheGroupBox</value>
-  </data>
-  <data name="&gt;&gt;nonPersistentCachingCheckBox.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="backgroundDaemonsTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>317, 228</value>
   </data>
@@ -892,7 +862,7 @@
     <value>cacheGroupBox</value>
   </data>
   <data name="&gt;&gt;browseButton.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="backgroundDaemonsLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -973,7 +943,7 @@
     <value>cacheGroupBox</value>
   </data>
   <data name="&gt;&gt;cacheLocationTextBox.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="cacheLocationLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1003,7 +973,7 @@
     <value>cacheGroupBox</value>
   </data>
   <data name="&gt;&gt;cacheLocationLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="maxProcessorTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>317, 202</value>
@@ -1045,7 +1015,7 @@
     <value>cacheGroupBox</value>
   </data>
   <data name="&gt;&gt;cacheSizeTextBox.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="cacheSizeLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1075,7 +1045,7 @@
     <value>cacheGroupBox</value>
   </data>
   <data name="&gt;&gt;cacheSizeLabel.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="cacheGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>

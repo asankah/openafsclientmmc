@@ -37,8 +37,6 @@
             this.cellsRemoveButton = new System.Windows.Forms.Button();
             this.cellsTextBox = new System.Windows.Forms.TextBox();
             this.cellsLabel = new System.Windows.Forms.Label();
-            this.scriptTextBox = new System.Windows.Forms.TextBox();
-            this.scriptLabel = new System.Windows.Forms.Label();
             this.loginFailGroupBox = new System.Windows.Forms.GroupBox();
             this.quitTextBox = new System.Windows.Forms.TextBox();
             this.quitLabel = new System.Windows.Forms.Label();
@@ -74,8 +72,6 @@
             this.cellOptionsGroupBox.Controls.Add(this.cellsRemoveButton);
             this.cellOptionsGroupBox.Controls.Add(this.cellsTextBox);
             this.cellOptionsGroupBox.Controls.Add(this.cellsLabel);
-            this.cellOptionsGroupBox.Controls.Add(this.scriptTextBox);
-            this.cellOptionsGroupBox.Controls.Add(this.scriptLabel);
             this.cellOptionsGroupBox.Controls.Add(this.loginFailGroupBox);
             this.cellOptionsGroupBox.Controls.Add(this.automaticLoginCheckBox);
             resources.ApplyResources(this.cellOptionsGroupBox, "cellOptionsGroupBox");
@@ -103,16 +99,6 @@
             // 
             resources.ApplyResources(this.cellsLabel, "cellsLabel");
             this.cellsLabel.Name = "cellsLabel";
-            // 
-            // scriptTextBox
-            // 
-            resources.ApplyResources(this.scriptTextBox, "scriptTextBox");
-            this.scriptTextBox.Name = "scriptTextBox";
-            // 
-            // scriptLabel
-            // 
-            resources.ApplyResources(this.scriptLabel, "scriptLabel");
-            this.scriptLabel.Name = "scriptLabel";
             // 
             // loginFailGroupBox
             // 
@@ -192,8 +178,6 @@
         private System.Windows.Forms.Button cellsRemoveButton;
         private System.Windows.Forms.TextBox cellsTextBox;
         private System.Windows.Forms.Label cellsLabel;
-        private System.Windows.Forms.TextBox scriptTextBox;
-        private System.Windows.Forms.Label scriptLabel;
         private System.Windows.Forms.GroupBox loginFailGroupBox;
         private System.Windows.Forms.TextBox quitTextBox;
         private System.Windows.Forms.Label quitLabel;

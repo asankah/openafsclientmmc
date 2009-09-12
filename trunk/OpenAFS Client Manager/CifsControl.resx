@@ -117,288 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="cachingPolicyGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="removeButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="removeButton.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="removeButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="removeButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>477, 72</value>
-  </data>
-  <data name="removeButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="removeButton.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="removeButton.Text" xml:space="preserve">
-    <value>Remove</value>
-  </data>
-  <data name="&gt;&gt;removeButton.Name" xml:space="preserve">
-    <value>removeButton</value>
-  </data>
-  <data name="&gt;&gt;removeButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;removeButton.Parent" xml:space="preserve">
-    <value>cachingPolicyGroupBox</value>
-  </data>
-  <data name="&gt;&gt;removeButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="addModifyButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="addModifyButton.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="addModifyButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="addModifyButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>392, 71</value>
-  </data>
-  <data name="addModifyButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 23</value>
-  </data>
-  <data name="addModifyButton.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="addModifyButton.Text" xml:space="preserve">
-    <value>Add / Modify</value>
-  </data>
-  <data name="&gt;&gt;addModifyButton.Name" xml:space="preserve">
-    <value>addModifyButton</value>
-  </data>
-  <data name="&gt;&gt;addModifyButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;addModifyButton.Parent" xml:space="preserve">
-    <value>cachingPolicyGroupBox</value>
-  </data>
-  <data name="&gt;&gt;addModifyButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="policyLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="policyLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="policyLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="policyLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>389, 47</value>
-  </data>
-  <data name="policyLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 13</value>
-  </data>
-  <data name="policyLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="policyLabel.Text" xml:space="preserve">
-    <value>Policy</value>
-  </data>
-  <data name="&gt;&gt;policyLabel.Name" xml:space="preserve">
-    <value>policyLabel</value>
-  </data>
-  <data name="&gt;&gt;policyLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;policyLabel.Parent" xml:space="preserve">
-    <value>cachingPolicyGroupBox</value>
-  </data>
-  <data name="&gt;&gt;policyLabel.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="policyComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="policyComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>459, 44</value>
-  </data>
-  <data name="policyComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 21</value>
-  </data>
-  <data name="policyComboBox.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;policyComboBox.Name" xml:space="preserve">
-    <value>policyComboBox</value>
-  </data>
-  <data name="&gt;&gt;policyComboBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;policyComboBox.Parent" xml:space="preserve">
-    <value>cachingPolicyGroupBox</value>
-  </data>
-  <data name="&gt;&gt;policyComboBox.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="shareNameTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="shareNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>459, 17</value>
-  </data>
-  <data name="shareNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="shareNameTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;shareNameTextBox.Name" xml:space="preserve">
-    <value>shareNameTextBox</value>
-  </data>
-  <data name="&gt;&gt;shareNameTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;shareNameTextBox.Parent" xml:space="preserve">
-    <value>cachingPolicyGroupBox</value>
-  </data>
-  <data name="&gt;&gt;shareNameTextBox.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="shareNameLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="shareNameLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="shareNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="shareNameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>389, 20</value>
-  </data>
-  <data name="shareNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 13</value>
-  </data>
-  <data name="shareNameLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="shareNameLabel.Text" xml:space="preserve">
-    <value>Share name</value>
-  </data>
-  <data name="&gt;&gt;shareNameLabel.Name" xml:space="preserve">
-    <value>shareNameLabel</value>
-  </data>
-  <data name="&gt;&gt;shareNameLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;shareNameLabel.Parent" xml:space="preserve">
-    <value>cachingPolicyGroupBox</value>
-  </data>
-  <data name="&gt;&gt;shareNameLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="cachingPolicyDataGridView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <metadata name="shareNameColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="shareNameColumn.HeaderText" xml:space="preserve">
-    <value>Share Name</value>
-  </data>
-  <metadata name="policyColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="policyColumn.HeaderText" xml:space="preserve">
-    <value>Policy</value>
-  </data>
-  <data name="cachingPolicyDataGridView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 20</value>
-  </data>
-  <data name="cachingPolicyDataGridView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>376, 130</value>
-  </data>
-  <data name="cachingPolicyDataGridView.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;cachingPolicyDataGridView.Name" xml:space="preserve">
-    <value>cachingPolicyDataGridView</value>
-  </data>
-  <data name="&gt;&gt;cachingPolicyDataGridView.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cachingPolicyDataGridView.Parent" xml:space="preserve">
-    <value>cachingPolicyGroupBox</value>
-  </data>
-  <data name="&gt;&gt;cachingPolicyDataGridView.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="cachingPolicyGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 191</value>
-  </data>
-  <data name="cachingPolicyGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>573, 156</value>
-  </data>
-  <data name="cachingPolicyGroupBox.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="cachingPolicyGroupBox.Text" xml:space="preserve">
-    <value>Client Side Caching Policy</value>
-  </data>
-  <data name="&gt;&gt;cachingPolicyGroupBox.Name" xml:space="preserve">
-    <value>cachingPolicyGroupBox</value>
-  </data>
-  <data name="&gt;&gt;cachingPolicyGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cachingPolicyGroupBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;cachingPolicyGroupBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="allSubmountCheckbox.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="allSubmountCheckbox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="allSubmountCheckbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 168</value>
-  </data>
-  <data name="allSubmountCheckbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 17</value>
-  </data>
-  <data name="allSubmountCheckbox.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="allSubmountCheckbox.Text" xml:space="preserve">
-    <value>Enable "all" submount</value>
-  </data>
-  <data name="&gt;&gt;allSubmountCheckbox.Name" xml:space="preserve">
-    <value>allSubmountCheckbox</value>
-  </data>
-  <data name="&gt;&gt;allSubmountCheckbox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;allSubmountCheckbox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;allSubmountCheckbox.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="authenticationLevelComboBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>232, 149</value>
   </data>
   <data name="authenticationLevelComboBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 21</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="authenticationLevelComboBox.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
   </data>
@@ -412,11 +138,12 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;authenticationLevelComboBox.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>0</value>
   </data>
   <data name="authenticationLevelLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="authenticationLevelLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -442,7 +169,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;authenticationLevelLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>1</value>
   </data>
   <data name="maximumVirtualCircuitsTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>253, 121</value>
@@ -463,7 +190,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;maximumVirtualCircuitsTextBox.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>2</value>
   </data>
   <data name="maximumVirtualCircuitsLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -493,7 +220,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;maximumVirtualCircuitsLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>3</value>
   </data>
   <data name="multiplexedRequestsTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>253, 89</value>
@@ -514,7 +241,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;multiplexedRequestsTextBox.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>4</value>
   </data>
   <data name="multiplexedRequestsLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -544,7 +271,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;multiplexedRequestsLabel.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>5</value>
   </data>
   <data name="applyButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -574,7 +301,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;applyButton.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>6</value>
   </data>
   <data name="locateAdapterCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -604,7 +331,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;locateAdapterCheckBox.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>7</value>
   </data>
   <data name="lanAdapterLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -634,7 +361,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lanAdapterLabel.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>8</value>
   </data>
   <data name="adapterNumberComboBox.Items" xml:space="preserve">
     <value>Automatically determine LAN adapter</value>
@@ -658,7 +385,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;adapterNumberComboBox.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>9</value>
   </data>
   <data name="netbiosNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>106, 26</value>
@@ -679,7 +406,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;netbiosNameTextBox.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>10</value>
   </data>
   <data name="netbiosNameLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -709,7 +436,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;netbiosNameLabel.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>11</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -719,18 +446,6 @@
   </data>
   <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
     <value>632, 492</value>
-  </data>
-  <data name="&gt;&gt;shareNameColumn.Name" xml:space="preserve">
-    <value>shareNameColumn</value>
-  </data>
-  <data name="&gt;&gt;shareNameColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;policyColumn.Name" xml:space="preserve">
-    <value>policyColumn</value>
-  </data>
-  <data name="&gt;&gt;policyColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>CifsControl</value>
