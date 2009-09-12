@@ -45,8 +45,8 @@
             // 
             // authenticationLevelComboBox
             // 
-            this.authenticationLevelComboBox.FormattingEnabled = true;
             resources.ApplyResources(this.authenticationLevelComboBox, "authenticationLevelComboBox");
+            this.authenticationLevelComboBox.FormattingEnabled = true;
             this.authenticationLevelComboBox.Name = "authenticationLevelComboBox";
             // 
             // authenticationLevelLabel
@@ -79,6 +79,7 @@
             resources.ApplyResources(this.applyButton, "applyButton");
             this.applyButton.Name = "applyButton";
             this.applyButton.UseVisualStyleBackColor = true;
+            this.applyButton.Click += new System.EventHandler(this.applyButton_Click);
             // 
             // locateAdapterCheckBox
             // 
@@ -93,10 +94,10 @@
             // 
             // adapterNumberComboBox
             // 
+            resources.ApplyResources(this.adapterNumberComboBox, "adapterNumberComboBox");
             this.adapterNumberComboBox.FormattingEnabled = true;
             this.adapterNumberComboBox.Items.AddRange(new object[] {
             resources.GetString("adapterNumberComboBox.Items")});
-            resources.ApplyResources(this.adapterNumberComboBox, "adapterNumberComboBox");
             this.adapterNumberComboBox.Name = "adapterNumberComboBox";
             // 
             // netbiosNameTextBox
@@ -126,6 +127,7 @@
             this.Controls.Add(this.netbiosNameTextBox);
             this.Controls.Add(this.netbiosNameLabel);
             this.Name = "CifsControl";
+            this.Load += new System.EventHandler(this.CifsControl_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

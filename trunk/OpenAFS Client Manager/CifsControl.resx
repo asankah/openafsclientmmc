@@ -117,14 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="authenticationLevelComboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="authenticationLevelComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>232, 149</value>
+    <value>213, 131</value>
   </data>
   <data name="authenticationLevelComboBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 21</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="authenticationLevelComboBox.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
   </data>
@@ -148,7 +151,7 @@
     <value>NoControl</value>
   </data>
   <data name="authenticationLevelLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 152</value>
+    <value>3, 134</value>
   </data>
   <data name="authenticationLevelLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 13</value>
@@ -172,7 +175,7 @@
     <value>1</value>
   </data>
   <data name="maximumVirtualCircuitsTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>253, 121</value>
+    <value>234, 103</value>
   </data>
   <data name="maximumVirtualCircuitsTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -199,7 +202,7 @@
     <value>NoControl</value>
   </data>
   <data name="maximumVirtualCircuitsLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 124</value>
+    <value>3, 106</value>
   </data>
   <data name="maximumVirtualCircuitsLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>194, 13</value>
@@ -223,7 +226,7 @@
     <value>3</value>
   </data>
   <data name="multiplexedRequestsTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>253, 89</value>
+    <value>234, 71</value>
   </data>
   <data name="multiplexedRequestsTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -250,7 +253,7 @@
     <value>NoControl</value>
   </data>
   <data name="multiplexedRequestsLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 92</value>
+    <value>3, 74</value>
   </data>
   <data name="multiplexedRequestsLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>225, 13</value>
@@ -280,7 +283,7 @@
     <value>NoControl</value>
   </data>
   <data name="applyButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>536, 444</value>
+    <value>153, 263</value>
   </data>
   <data name="applyButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -306,11 +309,14 @@
   <data name="locateAdapterCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="locateAdapterCheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="locateAdapterCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="locateAdapterCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 72</value>
+    <value>6, 54</value>
   </data>
   <data name="locateAdapterCheckBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>271, 17</value>
@@ -340,7 +346,7 @@
     <value>NoControl</value>
   </data>
   <data name="lanAdapterLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 55</value>
+    <value>3, 37</value>
   </data>
   <data name="lanAdapterLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>143, 13</value>
@@ -363,11 +369,14 @@
   <data name="&gt;&gt;lanAdapterLabel.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <data name="adapterNumberComboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="adapterNumberComboBox.Items" xml:space="preserve">
     <value>Automatically determine LAN adapter</value>
   </data>
   <data name="adapterNumberComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>171, 52</value>
+    <value>152, 34</value>
   </data>
   <data name="adapterNumberComboBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 21</value>
@@ -388,7 +397,7 @@
     <value>9</value>
   </data>
   <data name="netbiosNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>106, 26</value>
+    <value>87, 8</value>
   </data>
   <data name="netbiosNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -415,7 +424,7 @@
     <value>NoControl</value>
   </data>
   <data name="netbiosNameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 29</value>
+    <value>3, 11</value>
   </data>
   <data name="netbiosNameLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>78, 13</value>
