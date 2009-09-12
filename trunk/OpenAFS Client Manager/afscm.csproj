@@ -62,13 +62,44 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="brantgurga.pfx" />
     <None Include="brantgurga.snk" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CacheManagerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CacheManagerControl.Designer.cs">
+      <DependentUpon>CacheManagerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CifsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CifsControl.Designer.cs">
+      <DependentUpon>CifsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DiagnosticsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DiagnosticsControl.Designer.cs">
+      <DependentUpon>DiagnosticsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FreelanceClientControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FreelanceClientControl.Designer.cs">
+      <DependentUpon>FreelanceClientControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="LogOnControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LogOnControl.Designer.cs">
+      <DependentUpon>LogOnControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManagerControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -79,23 +110,56 @@
     <Compile Include="ManagerSnapin.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="PerformanceControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PerformanceControl.Designer.cs">
+      <DependentUpon>PerformanceControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="ServersControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ServersControl.Designer.cs">
+      <DependentUpon>ServersControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="UnhandledStateException.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CacheManagerControl.resx">
+      <DependentUpon>CacheManagerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CifsControl.resx">
+      <DependentUpon>CifsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiagnosticsControl.resx">
+      <DependentUpon>DiagnosticsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FreelanceClientControl.resx">
+      <DependentUpon>FreelanceClientControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogOnControl.resx">
+      <DependentUpon>LogOnControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ManagerControl.resx">
       <DependentUpon>ManagerControl.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformanceControl.resx">
+      <DependentUpon>PerformanceControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServersControl.resx">
+      <DependentUpon>ServersControl.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

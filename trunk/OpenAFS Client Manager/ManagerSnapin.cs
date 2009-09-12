@@ -43,18 +43,38 @@ namespace OpenAFSClientManager
             this.RootNode.Children.Add(logonNode);
             this.RootNode.Children.Add(diagnosticsNode);
 
-            FormViewDescription fvd = new FormViewDescription();
+            FormViewDescription fvd = new FormViewDescription(typeof(ManagerControl));
             fvd.DisplayName = "OpenAFS Client Manager";
             fvd.ViewType = typeof(ManagerFormView);
-            fvd.ControlType = typeof(ManagerControl);
 
-            cifsNode.ViewDescriptions.Add(fvd);
-            perfNode.ViewDescriptions.Add(fvd);
-            cacheManNode.ViewDescriptions.Add(fvd);
-            freelanceNode.ViewDescriptions.Add(fvd);
-            serversNode.ViewDescriptions.Add(fvd);
-            logonNode.ViewDescriptions.Add(fvd);
-            diagnosticsNode.ViewDescriptions.Add(fvd);
+            FormViewDescription cifsFvd = new FormViewDescription(typeof(CifsControl));
+            cifsFvd.DisplayName = "CIFS";
+
+            FormViewDescription perfFvd = new FormViewDescription(typeof(PerformanceControl));
+            perfFvd.DisplayName = "Performance";
+
+            FormViewDescription cacheManFvd = new FormViewDescription(typeof(CacheManagerControl));
+            cacheManFvd.DisplayName = "Cache Manager";
+
+            FormViewDescription freelanceFvd = new FormViewDescription(typeof(FreelanceClientControl));
+            freelanceFvd.DisplayName = "Freelance Client";
+
+            FormViewDescription serversFvd = new FormViewDescription(typeof(ServersControl));
+            serversFvd.DisplayName = "Servers";
+
+            FormViewDescription logonFvd = new FormViewDescription(typeof(LogOnControl));
+            logonFvd.DisplayName = "Log on options";
+            
+            FormViewDescription diagnosticsFvd = new FormViewDescription(typeof(DiagnosticsControl));
+            diagnosticsFvd.DisplayName = "Diagnostics";
+
+            cifsNode.ViewDescriptions.Add(cifsFvd);
+            perfNode.ViewDescriptions.Add(perfFvd);
+            cacheManNode.ViewDescriptions.Add(cacheManFvd);
+            freelanceNode.ViewDescriptions.Add(freelanceFvd);
+            serversNode.ViewDescriptions.Add(serversFvd);
+            logonNode.ViewDescriptions.Add(logonFvd);
+            diagnosticsNode.ViewDescriptions.Add(diagnosticsFvd);
             this.RootNode.ViewDescriptions.Add(fvd);
         }
     }

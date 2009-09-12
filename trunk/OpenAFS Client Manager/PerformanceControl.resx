@@ -1,0 +1,1122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tokenExpirationTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 117</value>
+  </data>
+  <data name="tokenExpirationTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tokenExpirationTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;tokenExpirationTextBox.Name" xml:space="preserve">
+    <value>tokenExpirationTextBox</value>
+  </data>
+  <data name="&gt;&gt;tokenExpirationTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tokenExpirationTextBox.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;tokenExpirationTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tokenExpirationLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tokenExpirationLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tokenExpirationLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 120</value>
+  </data>
+  <data name="tokenExpirationLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="tokenExpirationLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="tokenExpirationLabel.Text" xml:space="preserve">
+    <value>Token expiration</value>
+  </data>
+  <data name="&gt;&gt;tokenExpirationLabel.Name" xml:space="preserve">
+    <value>tokenExpirationLabel</value>
+  </data>
+  <data name="&gt;&gt;tokenExpirationLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tokenExpirationLabel.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;tokenExpirationLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="fileLocksTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 91</value>
+  </data>
+  <data name="fileLocksTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 20</value>
+  </data>
+  <data name="fileLocksTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;fileLocksTextBox.Name" xml:space="preserve">
+    <value>fileLocksTextBox</value>
+  </data>
+  <data name="&gt;&gt;fileLocksTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fileLocksTextBox.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;fileLocksTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="fileLocksLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fileLocksLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="fileLocksLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 94</value>
+  </data>
+  <data name="fileLocksLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="fileLocksLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="fileLocksLabel.Text" xml:space="preserve">
+    <value>File locks</value>
+  </data>
+  <data name="&gt;&gt;fileLocksLabel.Name" xml:space="preserve">
+    <value>fileLocksLabel</value>
+  </data>
+  <data name="&gt;&gt;fileLocksLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fileLocksLabel.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;fileLocksLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="callbackInvalidationTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 65</value>
+  </data>
+  <data name="callbackInvalidationTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 20</value>
+  </data>
+  <data name="callbackInvalidationTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;callbackInvalidationTextBox.Name" xml:space="preserve">
+    <value>callbackInvalidationTextBox</value>
+  </data>
+  <data name="&gt;&gt;callbackInvalidationTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;callbackInvalidationTextBox.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;callbackInvalidationTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="callbackInvalidationLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="callbackInvalidationLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="callbackInvalidationLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 68</value>
+  </data>
+  <data name="callbackInvalidationLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 13</value>
+  </data>
+  <data name="callbackInvalidationLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="callbackInvalidationLabel.Text" xml:space="preserve">
+    <value>Callback invalidation</value>
+  </data>
+  <data name="&gt;&gt;callbackInvalidationLabel.Name" xml:space="preserve">
+    <value>callbackInvalidationLabel</value>
+  </data>
+  <data name="&gt;&gt;callbackInvalidationLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;callbackInvalidationLabel.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;callbackInvalidationLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="upServersTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 39</value>
+  </data>
+  <data name="upServersTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 20</value>
+  </data>
+  <data name="upServersTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;upServersTextBox.Name" xml:space="preserve">
+    <value>upServersTextBox</value>
+  </data>
+  <data name="&gt;&gt;upServersTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;upServersTextBox.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;upServersTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="upServersLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="upServersLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="upServersLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="upServersLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="upServersLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="upServersLabel.Text" xml:space="preserve">
+    <value>"Up" servers</value>
+  </data>
+  <data name="&gt;&gt;upServersLabel.Name" xml:space="preserve">
+    <value>upServersLabel</value>
+  </data>
+  <data name="&gt;&gt;upServersLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;upServersLabel.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;upServersLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="downServersTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 13</value>
+  </data>
+  <data name="downServersTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 20</value>
+  </data>
+  <data name="downServersTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;downServersTextBox.Name" xml:space="preserve">
+    <value>downServersTextBox</value>
+  </data>
+  <data name="&gt;&gt;downServersTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;downServersTextBox.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;downServersTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="downServersLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="downServersLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="downServersLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="downServersLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="downServersLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="downServersLabel.Text" xml:space="preserve">
+    <value>"Down" servers</value>
+  </data>
+  <data name="&gt;&gt;downServersLabel.Name" xml:space="preserve">
+    <value>downServersLabel</value>
+  </data>
+  <data name="&gt;&gt;downServersLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;downServersLabel.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;downServersLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="probeIntervalsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 202</value>
+  </data>
+  <data name="probeIntervalsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 144</value>
+  </data>
+  <data name="probeIntervalsGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="probeIntervalsGroupBox.Text" xml:space="preserve">
+    <value>Probe intervals for…</value>
+  </data>
+  <data name="&gt;&gt;probeIntervalsGroupBox.Name" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;probeIntervalsGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;probeIntervalsGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;probeIntervalsGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hardTimeoutTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 176</value>
+  </data>
+  <data name="hardTimeoutTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="hardTimeoutTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;hardTimeoutTextBox.Name" xml:space="preserve">
+    <value>hardTimeoutTextBox</value>
+  </data>
+  <data name="&gt;&gt;hardTimeoutTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hardTimeoutTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;hardTimeoutTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="hardTimeoutLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hardTimeoutLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="hardTimeoutLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 179</value>
+  </data>
+  <data name="hardTimeoutLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="hardTimeoutLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="hardTimeoutLabel.Text" xml:space="preserve">
+    <value>Hard dead timeout</value>
+  </data>
+  <data name="&gt;&gt;hardTimeoutLabel.Name" xml:space="preserve">
+    <value>hardTimeoutLabel</value>
+  </data>
+  <data name="&gt;&gt;hardTimeoutLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hardTimeoutLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;hardTimeoutLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="connectionTimeoutTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 150</value>
+  </data>
+  <data name="connectionTimeoutTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="connectionTimeoutTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;connectionTimeoutTextBox.Name" xml:space="preserve">
+    <value>connectionTimeoutTextBox</value>
+  </data>
+  <data name="&gt;&gt;connectionTimeoutTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;connectionTimeoutTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;connectionTimeoutTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="connectionTimeoutLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="connectionTimeoutLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="connectionTimeoutLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 153</value>
+  </data>
+  <data name="connectionTimeoutLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 13</value>
+  </data>
+  <data name="connectionTimeoutLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="connectionTimeoutLabel.Text" xml:space="preserve">
+    <value>Connection dead timeout</value>
+  </data>
+  <data name="&gt;&gt;connectionTimeoutLabel.Name" xml:space="preserve">
+    <value>connectionTimeoutLabel</value>
+  </data>
+  <data name="&gt;&gt;connectionTimeoutLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;connectionTimeoutLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;connectionTimeoutLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="disableJumbogramsCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableJumbogramsCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="disableJumbogramsCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 300</value>
+  </data>
+  <data name="disableJumbogramsCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 17</value>
+  </data>
+  <data name="disableJumbogramsCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="disableJumbogramsCheckBox.Text" xml:space="preserve">
+    <value>Disable use of RX jumbograms</value>
+  </data>
+  <data name="&gt;&gt;disableJumbogramsCheckBox.Name" xml:space="preserve">
+    <value>disableJumbogramsCheckBox</value>
+  </data>
+  <data name="&gt;&gt;disableJumbogramsCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;disableJumbogramsCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;disableJumbogramsCheckBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="interfaceMTUTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 280</value>
+  </data>
+  <data name="interfaceMTUTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="interfaceMTUTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;interfaceMTUTextBox.Name" xml:space="preserve">
+    <value>interfaceMTUTextBox</value>
+  </data>
+  <data name="&gt;&gt;interfaceMTUTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;interfaceMTUTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;interfaceMTUTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="interfaceMTULabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="interfaceMTULabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="interfaceMTULabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 283</value>
+  </data>
+  <data name="interfaceMTULabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 13</value>
+  </data>
+  <data name="interfaceMTULabel.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="interfaceMTULabel.Text" xml:space="preserve">
+    <value>MTU for the RX interface</value>
+  </data>
+  <data name="&gt;&gt;interfaceMTULabel.Name" xml:space="preserve">
+    <value>interfaceMTULabel</value>
+  </data>
+  <data name="&gt;&gt;interfaceMTULabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;interfaceMTULabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;interfaceMTULabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="serverThreadsTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 254</value>
+  </data>
+  <data name="serverThreadsTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="serverThreadsTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;serverThreadsTextBox.Name" xml:space="preserve">
+    <value>serverThreadsTextBox</value>
+  </data>
+  <data name="&gt;&gt;serverThreadsTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;serverThreadsTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;serverThreadsTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="serverThreadsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="serverThreadsLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="serverThreadsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 257</value>
+  </data>
+  <data name="serverThreadsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 13</value>
+  </data>
+  <data name="serverThreadsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="serverThreadsLabel.Text" xml:space="preserve">
+    <value>Number of server threads</value>
+  </data>
+  <data name="&gt;&gt;serverThreadsLabel.Name" xml:space="preserve">
+    <value>serverThreadsLabel</value>
+  </data>
+  <data name="&gt;&gt;serverThreadsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;serverThreadsLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;serverThreadsLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="statCacheEntriesTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 150</value>
+  </data>
+  <data name="statCacheEntriesTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="statCacheEntriesTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;statCacheEntriesTextBox.Name" xml:space="preserve">
+    <value>statCacheEntriesTextBox</value>
+  </data>
+  <data name="&gt;&gt;statCacheEntriesTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statCacheEntriesTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statCacheEntriesTextBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="statCacheEntriesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="statCacheEntriesLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="statCacheEntriesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 153</value>
+  </data>
+  <data name="statCacheEntriesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 13</value>
+  </data>
+  <data name="statCacheEntriesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="statCacheEntriesLabel.Text" xml:space="preserve">
+    <value>Number of stat cache entries</value>
+  </data>
+  <data name="&gt;&gt;statCacheEntriesLabel.Name" xml:space="preserve">
+    <value>statCacheEntriesLabel</value>
+  </data>
+  <data name="&gt;&gt;statCacheEntriesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statCacheEntriesLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statCacheEntriesLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="validateCacheComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 58</value>
+  </data>
+  <data name="validateCacheComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="validateCacheComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;validateCacheComboBox.Name" xml:space="preserve">
+    <value>validateCacheComboBox</value>
+  </data>
+  <data name="&gt;&gt;validateCacheComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;validateCacheComboBox.Parent" xml:space="preserve">
+    <value>cacheGroupBox</value>
+  </data>
+  <data name="&gt;&gt;validateCacheComboBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="applyButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="applyButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="applyButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>642, 464</value>
+  </data>
+  <data name="applyButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="applyButton.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="applyButton.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;applyButton.Name" xml:space="preserve">
+    <value>applyButton</value>
+  </data>
+  <data name="&gt;&gt;applyButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;applyButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;applyButton.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="chunkSizeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 176</value>
+  </data>
+  <data name="chunkSizeTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="chunkSizeTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;chunkSizeTextBox.Name" xml:space="preserve">
+    <value>chunkSizeTextBox</value>
+  </data>
+  <data name="&gt;&gt;chunkSizeTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chunkSizeTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chunkSizeTextBox.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="validateCacheLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="validateCacheLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="validateCacheLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 61</value>
+  </data>
+  <data name="validateCacheLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="validateCacheLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="validateCacheLabel.Text" xml:space="preserve">
+    <value>Validate cache</value>
+  </data>
+  <data name="&gt;&gt;validateCacheLabel.Name" xml:space="preserve">
+    <value>validateCacheLabel</value>
+  </data>
+  <data name="&gt;&gt;validateCacheLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;validateCacheLabel.Parent" xml:space="preserve">
+    <value>cacheGroupBox</value>
+  </data>
+  <data name="&gt;&gt;validateCacheLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chunkSizeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chunkSizeLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chunkSizeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 179</value>
+  </data>
+  <data name="chunkSizeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="chunkSizeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="chunkSizeLabel.Text" xml:space="preserve">
+    <value>Chunk size</value>
+  </data>
+  <data name="&gt;&gt;chunkSizeLabel.Name" xml:space="preserve">
+    <value>chunkSizeLabel</value>
+  </data>
+  <data name="&gt;&gt;chunkSizeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chunkSizeLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chunkSizeLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="nonPersistentCachingCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nonPersistentCachingCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nonPersistentCachingCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 37</value>
+  </data>
+  <data name="nonPersistentCachingCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 17</value>
+  </data>
+  <data name="nonPersistentCachingCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="nonPersistentCachingCheckBox.Text" xml:space="preserve">
+    <value>Use non-persistent caching</value>
+  </data>
+  <data name="&gt;&gt;nonPersistentCachingCheckBox.Name" xml:space="preserve">
+    <value>nonPersistentCachingCheckBox</value>
+  </data>
+  <data name="&gt;&gt;nonPersistentCachingCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nonPersistentCachingCheckBox.Parent" xml:space="preserve">
+    <value>cacheGroupBox</value>
+  </data>
+  <data name="&gt;&gt;nonPersistentCachingCheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="backgroundDaemonsTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 228</value>
+  </data>
+  <data name="backgroundDaemonsTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="backgroundDaemonsTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;backgroundDaemonsTextBox.Name" xml:space="preserve">
+    <value>backgroundDaemonsTextBox</value>
+  </data>
+  <data name="&gt;&gt;backgroundDaemonsTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backgroundDaemonsTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;backgroundDaemonsTextBox.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="browseButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="browseButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 15</value>
+  </data>
+  <data name="browseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 23</value>
+  </data>
+  <data name="browseButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="browseButton.Text" xml:space="preserve">
+    <value>Browse…</value>
+  </data>
+  <data name="&gt;&gt;browseButton.Name" xml:space="preserve">
+    <value>browseButton</value>
+  </data>
+  <data name="&gt;&gt;browseButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;browseButton.Parent" xml:space="preserve">
+    <value>cacheGroupBox</value>
+  </data>
+  <data name="&gt;&gt;browseButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="backgroundDaemonsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="backgroundDaemonsLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="backgroundDaemonsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 231</value>
+  </data>
+  <data name="backgroundDaemonsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 13</value>
+  </data>
+  <data name="backgroundDaemonsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="backgroundDaemonsLabel.Text" xml:space="preserve">
+    <value>Number of background daemons</value>
+  </data>
+  <data name="&gt;&gt;backgroundDaemonsLabel.Name" xml:space="preserve">
+    <value>backgroundDaemonsLabel</value>
+  </data>
+  <data name="&gt;&gt;backgroundDaemonsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backgroundDaemonsLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;backgroundDaemonsLabel.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="maxProcessorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="maxProcessorLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="maxProcessorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 205</value>
+  </data>
+  <data name="maxProcessorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 13</value>
+  </data>
+  <data name="maxProcessorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="maxProcessorLabel.Text" xml:space="preserve">
+    <value>Maximum number of CPUs to use</value>
+  </data>
+  <data name="&gt;&gt;maxProcessorLabel.Name" xml:space="preserve">
+    <value>maxProcessorLabel</value>
+  </data>
+  <data name="&gt;&gt;maxProcessorLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;maxProcessorLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;maxProcessorLabel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="cacheLocationTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 15</value>
+  </data>
+  <data name="cacheLocationTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="cacheLocationTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cacheLocationTextBox.Name" xml:space="preserve">
+    <value>cacheLocationTextBox</value>
+  </data>
+  <data name="&gt;&gt;cacheLocationTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cacheLocationTextBox.Parent" xml:space="preserve">
+    <value>cacheGroupBox</value>
+  </data>
+  <data name="&gt;&gt;cacheLocationTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cacheLocationLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cacheLocationLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cacheLocationLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 20</value>
+  </data>
+  <data name="cacheLocationLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="cacheLocationLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cacheLocationLabel.Text" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="&gt;&gt;cacheLocationLabel.Name" xml:space="preserve">
+    <value>cacheLocationLabel</value>
+  </data>
+  <data name="&gt;&gt;cacheLocationLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cacheLocationLabel.Parent" xml:space="preserve">
+    <value>cacheGroupBox</value>
+  </data>
+  <data name="&gt;&gt;cacheLocationLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="maxProcessorTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 202</value>
+  </data>
+  <data name="maxProcessorTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="maxProcessorTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;maxProcessorTextBox.Name" xml:space="preserve">
+    <value>maxProcessorTextBox</value>
+  </data>
+  <data name="&gt;&gt;maxProcessorTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;maxProcessorTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;maxProcessorTextBox.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="cacheSizeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="cacheSizeTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="cacheSizeTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cacheSizeTextBox.Name" xml:space="preserve">
+    <value>cacheSizeTextBox</value>
+  </data>
+  <data name="&gt;&gt;cacheSizeTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cacheSizeTextBox.Parent" xml:space="preserve">
+    <value>cacheGroupBox</value>
+  </data>
+  <data name="&gt;&gt;cacheSizeTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cacheSizeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cacheSizeLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cacheSizeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 23</value>
+  </data>
+  <data name="cacheSizeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="cacheSizeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cacheSizeLabel.Text" xml:space="preserve">
+    <value>Cache size</value>
+  </data>
+  <data name="&gt;&gt;cacheSizeLabel.Name" xml:space="preserve">
+    <value>cacheSizeLabel</value>
+  </data>
+  <data name="&gt;&gt;cacheSizeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cacheSizeLabel.Parent" xml:space="preserve">
+    <value>cacheGroupBox</value>
+  </data>
+  <data name="&gt;&gt;cacheSizeLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cacheGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cacheGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 46</value>
+  </data>
+  <data name="cacheGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>575, 100</value>
+  </data>
+  <data name="cacheGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="cacheGroupBox.Text" xml:space="preserve">
+    <value>Cache settings</value>
+  </data>
+  <data name="&gt;&gt;cacheGroupBox.Name" xml:space="preserve">
+    <value>cacheGroupBox</value>
+  </data>
+  <data name="&gt;&gt;cacheGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cacheGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cacheGroupBox.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>845, 533</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PerformanceControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
