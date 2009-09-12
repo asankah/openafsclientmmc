@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManagerControl));
             this.serviceTimer = new System.Windows.Forms.Timer(this.components);
             this.clientServiceController = new System.ServiceProcess.ServiceController();
-            this.browseFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.clientServiceGroupBox = new System.Windows.Forms.GroupBox();
             this.manageGroupButton = new System.Windows.Forms.Button();
@@ -118,7 +117,6 @@
 
         private System.Windows.Forms.Timer serviceTimer;
         private System.ServiceProcess.ServiceController clientServiceController;
-        private System.Windows.Forms.OpenFileDialog browseFileDialog;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox clientServiceGroupBox;
         private System.Windows.Forms.Button manageGroupButton;
