@@ -121,13 +121,16 @@
   <data name="newDomainButton.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="newDomainButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="newDomainButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="newDomainButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>330, 318</value>
+    <value>170, 286</value>
   </data>
   <data name="newDomainButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 23</value>
@@ -153,11 +156,14 @@
   <data name="preserveTokensCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="preserveTokensCheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="preserveTokensCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="preserveTokensCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>330, 294</value>
+    <value>170, 262</value>
   </data>
   <data name="preserveTokensCheckBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>167, 17</value>
@@ -183,8 +189,11 @@
   <data name="cellsTreeView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
   </data>
+  <data name="cellsTreeView.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="cellsTreeView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>163, 35</value>
+    <value>3, 3</value>
   </data>
   <data name="cellsTreeView.Size" type="System.Drawing.Size, System.Drawing">
     <value>161, 320</value>
@@ -203,6 +212,9 @@
   </data>
   <data name="&gt;&gt;cellsTreeView.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="cellsUpdateButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="cellsUpdateButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -231,6 +243,9 @@
   <data name="&gt;&gt;cellsUpdateButton.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="cellsRemoveButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="cellsRemoveButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -257,6 +272,9 @@
   </data>
   <data name="&gt;&gt;cellsRemoveButton.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="cellsTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="cellsTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>79, 159</value>
@@ -315,6 +333,9 @@
   <data name="loginFailGroupBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="quitTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="quitTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>68, 71</value>
   </data>
@@ -365,6 +386,9 @@
   </data>
   <data name="&gt;&gt;quitLabel.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="retryTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="retryTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>75, 44</value>
@@ -420,6 +444,9 @@
   <data name="silenceErrorsCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="silenceErrorsCheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="silenceErrorsCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -474,6 +501,9 @@
   <data name="automaticLoginCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="automaticLoginCheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="automaticLoginCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -502,7 +532,7 @@
     <value>5</value>
   </data>
   <data name="cellOptionsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>330, 35</value>
+    <value>170, 3</value>
   </data>
   <data name="cellOptionsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>408, 252</value>
@@ -532,7 +562,7 @@
     <value>NoControl</value>
   </data>
   <data name="applyButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>676, 452</value>
+    <value>351, 343</value>
   </data>
   <data name="applyButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>

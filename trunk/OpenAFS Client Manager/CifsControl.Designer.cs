@@ -45,8 +45,12 @@
             // 
             // authenticationLevelComboBox
             // 
-            resources.ApplyResources(this.authenticationLevelComboBox, "authenticationLevelComboBox");
             this.authenticationLevelComboBox.FormattingEnabled = true;
+            this.authenticationLevelComboBox.Items.AddRange(new object[] {
+            resources.GetString("authenticationLevelComboBox.Items"),
+            resources.GetString("authenticationLevelComboBox.Items1"),
+            resources.GetString("authenticationLevelComboBox.Items2")});
+            resources.ApplyResources(this.authenticationLevelComboBox, "authenticationLevelComboBox");
             this.authenticationLevelComboBox.Name = "authenticationLevelComboBox";
             // 
             // authenticationLevelLabel

@@ -1,4 +1,4 @@
-VERSION=0.2.0.0
+VERSION=0.3.0.0
 all: "OpenAFS Client Manager $(VERSION) (x86).msi" "OpenAFS Client Manager $(VERSION) (x64).msi" MAKEFILE
 
 "OpenAFS Client Manager $(VERSION) (x86).msi": "manager-x86.wixobj" "OpenAFS Client Manager x86.dll" License.rtf MAKEFILE "OpenAFS Client Manager.msc" OpenAFS.ico

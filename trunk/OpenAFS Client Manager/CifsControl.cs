@@ -6,13 +6,12 @@ using System.Data;
 using System.Text;
 using System.Windows.Forms;
 using Microsoft.Win32;
+using System.Security;
 
 namespace OpenAFSClientManager
 {
     public partial class CifsControl : UserControl
     {
-        private RegistryKey serviceParameters = Registry.LocalMachine.OpenSubKey("SYSTEM\\CurrentControlSet\\Services\\TransarcAFSDaemon\\Parameters");
-
         public CifsControl()
         {
             InitializeComponent();
@@ -20,6 +19,7 @@ namespace OpenAFSClientManager
 
         private void applyButton_Click(object sender, EventArgs e)
         {
+            RegistryKey serviceParameters = Registry.LocalMachine.OpenSubKey("SYSTEM\\CurrentControlSet\\Services\\TransarcAFSDaemon\\Parameters", true);
             if ("AFS".Equals(netbiosNameTextBox.Text))
             {
                 serviceParameters.DeleteValue("NetbiosName", false);
@@ -46,13 +46,41 @@ namespace OpenAFSClientManager
             {
                 serviceParameters.SetValue("MaxVCPerServer", Int32.Parse(maximumVirtualCircuitsTextBox.Text), RegistryValueKind.DWord);
             }
+
+            if (2 == authenticationLevelComboBox.SelectedIndex)
+            {
+                serviceParameters.DeleteValue("smbAuthType");
+            }
+            else
+            {
+                serviceParameters.SetValue("smbAuthType", authenticationLevelComboBox.SelectedIndex, RegistryValueKind.DWord);
+            }
+
+            if (locateAdapterCheckBox.Checked)
+            {
+                serviceParameters.SetValue("NoFindLanaByName", 1, RegistryValueKind.DWord);
+            }
+            else
+            {
+                serviceParameters.DeleteValue("NoFindLanaByName", false);
+            }
         }
 
         private void CifsControl_Load(object sender, EventArgs e)
         {
-            netbiosNameTextBox.Text = serviceParameters.GetValue("NetbiosName", "AFS") as string;
-            multiplexedRequestsTextBox.Text = ((int)serviceParameters.GetValue("MaxMpxRequests", 50)).ToString();
-            maximumVirtualCircuitsTextBox.Text = ((int)serviceParameters.GetValue("MaxVCPerServer", 100)).ToString();
+            try
+            {
+                RegistryKey serviceParameters = Registry.LocalMachine.OpenSubKey("SYSTEM\\CurrentControlSet\\Services\\TransarcAFSDaemon\\Parameters");
+                netbiosNameTextBox.Text = serviceParameters.GetValue("NetbiosName", "AFS") as string;
+                multiplexedRequestsTextBox.Text = ((int)serviceParameters.GetValue("MaxMpxRequests", 50)).ToString();
+                maximumVirtualCircuitsTextBox.Text = ((int)serviceParameters.GetValue("MaxVCPerServer", 100)).ToString();
+                authenticationLevelComboBox.SelectedIndex = (int)serviceParameters.GetValue("smbAuthType", 2);
+                locateAdapterCheckBox.Checked = Convert.ToBoolean((int)serviceParameters.GetValue("NoFindLanaByName", 0));
+            }
+            catch (SecurityException)
+            {
+                MessageBox.Show("You do not have access to apply these settings.", "Access Denied", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

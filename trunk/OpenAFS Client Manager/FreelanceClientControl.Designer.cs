@@ -100,6 +100,7 @@
             resources.ApplyResources(this.applyButton, "applyButton");
             this.applyButton.Name = "applyButton";
             this.applyButton.UseVisualStyleBackColor = true;
+            this.applyButton.Click += new System.EventHandler(this.applyButton_Click);
             // 
             // nameLabel
             // 
@@ -155,6 +156,7 @@
             this.Controls.Add(this.mountpointDataGridView);
             this.Controls.Add(this.enableFreelanceCheckBox);
             this.Name = "FreelanceClientControl";
+            this.Load += new System.EventHandler(this.FreelanceClientControl_Load);
             ((System.ComponentModel.ISupportInitialize)(this.mountpointDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

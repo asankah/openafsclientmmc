@@ -117,18 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="freelanceRemoveButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="freelanceRemoveButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="freelanceRemoveButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>641, 314</value>
+    <value>504, 280</value>
   </data>
   <data name="freelanceRemoveButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="freelanceRemoveButton.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
   </data>
@@ -147,11 +150,14 @@
   <data name="&gt;&gt;freelanceRemoveButton.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="freelanceAddModifyButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="freelanceAddModifyButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="freelanceAddModifyButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>560, 314</value>
+    <value>423, 280</value>
   </data>
   <data name="freelanceAddModifyButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -177,11 +183,14 @@
   <data name="rwMountPointRadioButton.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="rwMountPointRadioButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="rwMountPointRadioButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="rwMountPointRadioButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 316</value>
+    <value>46, 282</value>
   </data>
   <data name="rwMountPointRadioButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>134, 17</value>
@@ -207,11 +216,14 @@
   <data name="roMountPointRadioButton.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="roMountPointRadioButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="roMountPointRadioButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="roMountPointRadioButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 293</value>
+    <value>46, 259</value>
   </data>
   <data name="roMountPointRadioButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>131, 17</value>
@@ -237,11 +249,14 @@
   <data name="symbolicLinkRadioButton.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="symbolicLinkRadioButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="symbolicLinkRadioButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="symbolicLinkRadioButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 270</value>
+    <value>46, 236</value>
   </data>
   <data name="symbolicLinkRadioButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 17</value>
@@ -264,8 +279,11 @@
   <data name="&gt;&gt;symbolicLinkRadioButton.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="targetTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="targetTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 244</value>
+    <value>46, 210</value>
   </data>
   <data name="targetTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -292,7 +310,7 @@
     <value>NoControl</value>
   </data>
   <data name="targetLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 247</value>
+    <value>3, 213</value>
   </data>
   <data name="targetLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>38, 13</value>
@@ -315,8 +333,11 @@
   <data name="&gt;&gt;targetLabel.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="nameTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="nameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 218</value>
+    <value>46, 184</value>
   </data>
   <data name="nameTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -343,7 +364,7 @@
     <value>NoControl</value>
   </data>
   <data name="applyButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>654, 455</value>
+    <value>504, 320</value>
   </data>
   <data name="applyButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -373,7 +394,7 @@
     <value>NoControl</value>
   </data>
   <data name="nameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 221</value>
+    <value>3, 187</value>
   </data>
   <data name="nameLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 13</value>
@@ -417,8 +438,11 @@
   <data name="targetColumn.HeaderText" xml:space="preserve">
     <value>Target</value>
   </data>
+  <data name="mountpointDataGridView.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="mountpointDataGridView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>141, 61</value>
+    <value>4, 27</value>
   </data>
   <data name="mountpointDataGridView.Size" type="System.Drawing.Size, System.Drawing">
     <value>575, 151</value>
@@ -445,7 +469,7 @@
     <value>NoControl</value>
   </data>
   <data name="enableFreelanceCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 37</value>
+    <value>3, 3</value>
   </data>
   <data name="enableFreelanceCheckBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>137, 17</value>

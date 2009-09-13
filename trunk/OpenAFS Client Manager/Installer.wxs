@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2003/01/wi" xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension" xmlns:mmc="http://schemas.microsoft.com/wix/MmcExtension" RequiredVersion="2.0.5805.0">
   <?if $(var.target)="x86"?>
+  <?define UpgradeCode="C31B1F76-774D-4556-B8EB-14405673FF32"?>
   <?define SnapinId="3D9B1E14-704B-46CC-B8D3-8BFD1D27702E"?>
   <?define ConsoleId="8F2DDBC7-0788-4F3E-865B-69E8C1439F33"?>
   <?define Platforms="Intel"?>
@@ -11,6 +12,7 @@
   <?define ProcessorArchitecture="x86"?>
   <?define Platform="32bit"?>
   <?elseif $(var.target)="x64"?>
+  <?define UpgradeCode="0A231D1A-8C07-4987-9A5B-08B096F242E2"?>
   <?define SnapinId="2F8D1528-907A-4C8D-98C7-BA5554260F7B"?>
   <?define ConsoleId="86C1929A-6541-4062-A5C7-8CE7A1327335"?>
   <?define Platforms="x64"?>
@@ -23,7 +25,7 @@
   <?else?>
   <?error Target not set.?>
   <?endif?>
-	<Product Id="????????-????-????-????-????????????" Name="OpenAFS Client Manager" Language="1033" Version="$(var.version)" Manufacturer="Brant Gurganus" UpgradeCode="0A231D1A-8C07-4987-9A5B-08B096F242E2">
+	<Product Id="????????-????-????-????-????????????" Name="OpenAFS Client Manager" Language="1033" Version="$(var.version)" Manufacturer="Brant Gurganus" UpgradeCode="$(var.UpgradeCode)">
     <Package Id="????????-????-????-????-????????????" Comments="This is the package consisting of the OpenAFS Client Manager MMC Snapin." Description="Allows management of the OpenAFS client through a Microsoft Management Console Snapin." Compressed="yes" InstallerVersion="400" Keywords="openafs, afs, mmc, snapin, installer" Manufacturer="Brant Gurganus" Platforms="$(var.Platforms)" ReadOnly="yes"/>
     <Property Id="MMC3">
       <DirectorySearch Id="MMC3Path" Path="[SystemFolder]">

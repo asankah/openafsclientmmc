@@ -38,8 +38,6 @@
             this.logEntriesTextBox = new System.Windows.Forms.TextBox();
             this.logEntriesLabel = new System.Windows.Forms.Label();
             this.traceAsDebugOutputCheckBox = new System.Windows.Forms.CheckBox();
-            this.resetLogButton = new System.Windows.Forms.Button();
-            this.saveLogButton = new System.Windows.Forms.Button();
             this.enableTracingCheckBox = new System.Windows.Forms.CheckBox();
             this.breakpointOnPanicCheckBox = new System.Windows.Forms.CheckBox();
             this.applyButton = new System.Windows.Forms.Button();
@@ -67,8 +65,6 @@
             this.tracingGroupBox.Controls.Add(this.logEntriesTextBox);
             this.tracingGroupBox.Controls.Add(this.logEntriesLabel);
             this.tracingGroupBox.Controls.Add(this.traceAsDebugOutputCheckBox);
-            this.tracingGroupBox.Controls.Add(this.resetLogButton);
-            this.tracingGroupBox.Controls.Add(this.saveLogButton);
             this.tracingGroupBox.Controls.Add(this.enableTracingCheckBox);
             this.tracingGroupBox.Name = "tracingGroupBox";
             this.tracingGroupBox.TabStop = false;
@@ -105,18 +101,6 @@
             this.traceAsDebugOutputCheckBox.Name = "traceAsDebugOutputCheckBox";
             this.traceAsDebugOutputCheckBox.UseVisualStyleBackColor = true;
             // 
-            // resetLogButton
-            // 
-            resources.ApplyResources(this.resetLogButton, "resetLogButton");
-            this.resetLogButton.Name = "resetLogButton";
-            this.resetLogButton.UseVisualStyleBackColor = true;
-            // 
-            // saveLogButton
-            // 
-            resources.ApplyResources(this.saveLogButton, "saveLogButton");
-            this.saveLogButton.Name = "saveLogButton";
-            this.saveLogButton.UseVisualStyleBackColor = true;
-            // 
             // enableTracingCheckBox
             // 
             resources.ApplyResources(this.enableTracingCheckBox, "enableTracingCheckBox");
@@ -134,6 +118,7 @@
             resources.ApplyResources(this.applyButton, "applyButton");
             this.applyButton.Name = "applyButton";
             this.applyButton.UseVisualStyleBackColor = true;
+            this.applyButton.Click += new System.EventHandler(this.applyButton_Click);
             // 
             // DiagnosticsControl
             // 
@@ -145,6 +130,7 @@
             this.Controls.Add(this.breakpointOnPanicCheckBox);
             this.Controls.Add(this.applyButton);
             this.Name = "DiagnosticsControl";
+            this.Load += new System.EventHandler(this.DiagnosticsControl_Load);
             this.tracingGroupBox.ResumeLayout(false);
             this.tracingGroupBox.PerformLayout();
             this.ResumeLayout(false);
@@ -163,8 +149,6 @@
         private System.Windows.Forms.TextBox logEntriesTextBox;
         private System.Windows.Forms.Label logEntriesLabel;
         private System.Windows.Forms.CheckBox traceAsDebugOutputCheckBox;
-        private System.Windows.Forms.Button resetLogButton;
-        private System.Windows.Forms.Button saveLogButton;
         private System.Windows.Forms.CheckBox enableTracingCheckBox;
         private System.Windows.Forms.CheckBox breakpointOnPanicCheckBox;
         private System.Windows.Forms.Button applyButton;

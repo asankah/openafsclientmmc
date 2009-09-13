@@ -150,92 +150,11 @@
   <data name="clientServiceGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="&gt;&gt;manageGroupButton.Name" xml:space="preserve">
-    <value>manageGroupButton</value>
-  </data>
-  <data name="&gt;&gt;manageGroupButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;manageGroupButton.Parent" xml:space="preserve">
-    <value>clientServiceGroupBox</value>
-  </data>
-  <data name="&gt;&gt;manageGroupButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;stopButton.Name" xml:space="preserve">
-    <value>stopButton</value>
-  </data>
-  <data name="&gt;&gt;stopButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;stopButton.Parent" xml:space="preserve">
-    <value>clientServiceGroupBox</value>
-  </data>
-  <data name="&gt;&gt;stopButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;startButton.Name" xml:space="preserve">
-    <value>startButton</value>
-  </data>
-  <data name="&gt;&gt;startButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;startButton.Parent" xml:space="preserve">
-    <value>clientServiceGroupBox</value>
-  </data>
-  <data name="&gt;&gt;startButton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;runningTextBox.Name" xml:space="preserve">
-    <value>runningTextBox</value>
-  </data>
-  <data name="&gt;&gt;runningTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;runningTextBox.Parent" xml:space="preserve">
-    <value>clientServiceGroupBox</value>
-  </data>
-  <data name="&gt;&gt;runningTextBox.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;runningLabel.Name" xml:space="preserve">
-    <value>runningLabel</value>
-  </data>
-  <data name="&gt;&gt;runningLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;runningLabel.Parent" xml:space="preserve">
-    <value>clientServiceGroupBox</value>
-  </data>
-  <data name="&gt;&gt;runningLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="clientServiceGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 62</value>
-  </data>
-  <data name="clientServiceGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>582, 327</value>
-  </data>
-  <data name="clientServiceGroupBox.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="clientServiceGroupBox.Text" xml:space="preserve">
-    <value>AFS client service</value>
-  </data>
-  <data name="&gt;&gt;clientServiceGroupBox.Name" xml:space="preserve">
-    <value>clientServiceGroupBox</value>
-  </data>
-  <data name="&gt;&gt;clientServiceGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;clientServiceGroupBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;clientServiceGroupBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="manageGroupButton.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="manageGroupButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="manageGroupButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -377,6 +296,30 @@
   </data>
   <data name="&gt;&gt;runningLabel.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="clientServiceGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 62</value>
+  </data>
+  <data name="clientServiceGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>582, 327</value>
+  </data>
+  <data name="clientServiceGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="clientServiceGroupBox.Text" xml:space="preserve">
+    <value>AFS client service</value>
+  </data>
+  <data name="&gt;&gt;clientServiceGroupBox.Name" xml:space="preserve">
+    <value>clientServiceGroupBox</value>
+  </data>
+  <data name="&gt;&gt;clientServiceGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clientServiceGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;clientServiceGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

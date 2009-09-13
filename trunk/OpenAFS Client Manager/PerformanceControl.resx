@@ -117,14 +117,161 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;tokenExpirationTextBox.Name" xml:space="preserve">
+    <value>tokenExpirationTextBox</value>
+  </data>
+  <data name="&gt;&gt;tokenExpirationTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tokenExpirationTextBox.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;tokenExpirationTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tokenExpirationLabel.Name" xml:space="preserve">
+    <value>tokenExpirationLabel</value>
+  </data>
+  <data name="&gt;&gt;tokenExpirationLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tokenExpirationLabel.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;tokenExpirationLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;fileLocksTextBox.Name" xml:space="preserve">
+    <value>fileLocksTextBox</value>
+  </data>
+  <data name="&gt;&gt;fileLocksTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fileLocksTextBox.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;fileLocksTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;fileLocksLabel.Name" xml:space="preserve">
+    <value>fileLocksLabel</value>
+  </data>
+  <data name="&gt;&gt;fileLocksLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fileLocksLabel.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;fileLocksLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;callbackInvalidationTextBox.Name" xml:space="preserve">
+    <value>callbackInvalidationTextBox</value>
+  </data>
+  <data name="&gt;&gt;callbackInvalidationTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;callbackInvalidationTextBox.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;callbackInvalidationTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;callbackInvalidationLabel.Name" xml:space="preserve">
+    <value>callbackInvalidationLabel</value>
+  </data>
+  <data name="&gt;&gt;callbackInvalidationLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;callbackInvalidationLabel.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;callbackInvalidationLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;upServersTextBox.Name" xml:space="preserve">
+    <value>upServersTextBox</value>
+  </data>
+  <data name="&gt;&gt;upServersTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;upServersTextBox.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;upServersTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;upServersLabel.Name" xml:space="preserve">
+    <value>upServersLabel</value>
+  </data>
+  <data name="&gt;&gt;upServersLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;upServersLabel.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;upServersLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;downServersTextBox.Name" xml:space="preserve">
+    <value>downServersTextBox</value>
+  </data>
+  <data name="&gt;&gt;downServersTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;downServersTextBox.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;downServersTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;downServersLabel.Name" xml:space="preserve">
+    <value>downServersLabel</value>
+  </data>
+  <data name="&gt;&gt;downServersLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;downServersLabel.Parent" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;downServersLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="probeIntervalsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 159</value>
+  </data>
+  <data name="probeIntervalsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 144</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="probeIntervalsGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="probeIntervalsGroupBox.Text" xml:space="preserve">
+    <value>Probe intervals for…</value>
+  </data>
+  <data name="&gt;&gt;probeIntervalsGroupBox.Name" xml:space="preserve">
+    <value>probeIntervalsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;probeIntervalsGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;probeIntervalsGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;probeIntervalsGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tokenExpirationTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="tokenExpirationTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>177, 117</value>
   </data>
   <data name="tokenExpirationTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>95, 20</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tokenExpirationTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
   </data>
@@ -170,6 +317,9 @@
   </data>
   <data name="&gt;&gt;tokenExpirationLabel.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="fileLocksTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="fileLocksTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>177, 91</value>
@@ -222,6 +372,9 @@
   <data name="&gt;&gt;fileLocksLabel.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="callbackInvalidationTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="callbackInvalidationTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>177, 65</value>
   </data>
@@ -272,6 +425,9 @@
   </data>
   <data name="&gt;&gt;callbackInvalidationLabel.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="upServersTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="upServersTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>177, 39</value>
@@ -324,6 +480,9 @@
   <data name="&gt;&gt;upServersLabel.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="downServersTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="downServersTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>177, 13</value>
   </data>
@@ -375,32 +534,11 @@
   <data name="&gt;&gt;downServersLabel.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="probeIntervalsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>426, 202</value>
-  </data>
-  <data name="probeIntervalsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 144</value>
-  </data>
-  <data name="probeIntervalsGroupBox.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
-  </data>
-  <data name="probeIntervalsGroupBox.Text" xml:space="preserve">
-    <value>Probe intervals for…</value>
-  </data>
-  <data name="&gt;&gt;probeIntervalsGroupBox.Name" xml:space="preserve">
-    <value>probeIntervalsGroupBox</value>
-  </data>
-  <data name="&gt;&gt;probeIntervalsGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;probeIntervalsGroupBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;probeIntervalsGroupBox.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="hardTimeoutTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="hardTimeoutTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>603, 176</value>
+    <value>478, 133</value>
   </data>
   <data name="hardTimeoutTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -427,7 +565,7 @@
     <value>NoControl</value>
   </data>
   <data name="hardTimeoutLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>423, 179</value>
+    <value>298, 136</value>
   </data>
   <data name="hardTimeoutLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>94, 13</value>
@@ -450,8 +588,11 @@
   <data name="&gt;&gt;hardTimeoutLabel.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="connectionTimeoutTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="connectionTimeoutTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>603, 150</value>
+    <value>478, 107</value>
   </data>
   <data name="connectionTimeoutTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -478,7 +619,7 @@
     <value>NoControl</value>
   </data>
   <data name="connectionTimeoutLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>423, 153</value>
+    <value>298, 110</value>
   </data>
   <data name="connectionTimeoutLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 13</value>
@@ -504,11 +645,14 @@
   <data name="disableJumbogramsCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="disableJumbogramsCheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="disableJumbogramsCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="disableJumbogramsCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 300</value>
+    <value>15, 257</value>
   </data>
   <data name="disableJumbogramsCheckBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>170, 17</value>
@@ -531,8 +675,11 @@
   <data name="&gt;&gt;disableJumbogramsCheckBox.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="interfaceMTUTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="interfaceMTUTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>317, 280</value>
+    <value>192, 237</value>
   </data>
   <data name="interfaceMTUTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -559,7 +706,7 @@
     <value>NoControl</value>
   </data>
   <data name="interfaceMTULabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 283</value>
+    <value>12, 240</value>
   </data>
   <data name="interfaceMTULabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 13</value>
@@ -582,8 +729,11 @@
   <data name="&gt;&gt;interfaceMTULabel.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="serverThreadsTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="serverThreadsTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>317, 254</value>
+    <value>192, 211</value>
   </data>
   <data name="serverThreadsTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -610,7 +760,7 @@
     <value>NoControl</value>
   </data>
   <data name="serverThreadsLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 257</value>
+    <value>12, 214</value>
   </data>
   <data name="serverThreadsLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 13</value>
@@ -633,8 +783,11 @@
   <data name="&gt;&gt;serverThreadsLabel.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="statCacheEntriesTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="statCacheEntriesTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>317, 150</value>
+    <value>192, 107</value>
   </data>
   <data name="statCacheEntriesTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -661,7 +814,7 @@
     <value>NoControl</value>
   </data>
   <data name="statCacheEntriesLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 153</value>
+    <value>12, 110</value>
   </data>
   <data name="statCacheEntriesLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>143, 13</value>
@@ -683,6 +836,9 @@
   </data>
   <data name="&gt;&gt;statCacheEntriesLabel.ZOrder" xml:space="preserve">
     <value>11</value>
+  </data>
+  <data name="validateCacheComboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="validateCacheComboBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>298, 58</value>
@@ -712,7 +868,7 @@
     <value>NoControl</value>
   </data>
   <data name="applyButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>642, 464</value>
+    <value>498, 337</value>
   </data>
   <data name="applyButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -736,7 +892,7 @@
     <value>12</value>
   </data>
   <data name="chunkSizeTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>317, 176</value>
+    <value>192, 133</value>
   </data>
   <data name="chunkSizeTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -793,7 +949,7 @@
     <value>NoControl</value>
   </data>
   <data name="chunkSizeLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 179</value>
+    <value>12, 136</value>
   </data>
   <data name="chunkSizeLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>59, 13</value>
@@ -816,8 +972,11 @@
   <data name="&gt;&gt;chunkSizeLabel.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
+  <data name="backgroundDaemonsTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="backgroundDaemonsTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>317, 228</value>
+    <value>192, 185</value>
   </data>
   <data name="backgroundDaemonsTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -836,6 +995,9 @@
   </data>
   <data name="&gt;&gt;backgroundDaemonsTextBox.ZOrder" xml:space="preserve">
     <value>15</value>
+  </data>
+  <data name="browseButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="browseButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -871,7 +1033,7 @@
     <value>NoControl</value>
   </data>
   <data name="backgroundDaemonsLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 231</value>
+    <value>12, 188</value>
   </data>
   <data name="backgroundDaemonsLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>162, 13</value>
@@ -901,7 +1063,7 @@
     <value>NoControl</value>
   </data>
   <data name="maxProcessorLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 205</value>
+    <value>12, 162</value>
   </data>
   <data name="maxProcessorLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 13</value>
@@ -923,6 +1085,9 @@
   </data>
   <data name="&gt;&gt;maxProcessorLabel.ZOrder" xml:space="preserve">
     <value>17</value>
+  </data>
+  <data name="cacheLocationTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="cacheLocationTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>266, 15</value>
@@ -975,8 +1140,11 @@
   <data name="&gt;&gt;cacheLocationLabel.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="maxProcessorTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="maxProcessorTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>317, 202</value>
+    <value>192, 159</value>
   </data>
   <data name="maxProcessorTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -1051,7 +1219,7 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="cacheGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>128, 46</value>
+    <value>3, 3</value>
   </data>
   <data name="cacheGroupBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>575, 100</value>

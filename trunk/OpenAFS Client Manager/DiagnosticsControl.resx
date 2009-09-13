@@ -127,7 +127,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="debugCallsCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>171, 246</value>
+    <value>3, 204</value>
   </data>
   <data name="debugCallsCheckBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>139, 17</value>
@@ -157,7 +157,7 @@
     <value>NoControl</value>
   </data>
   <data name="signatureVerificationCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>171, 222</value>
+    <value>3, 180</value>
   </data>
   <data name="signatureVerificationCheckBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 17</value>
@@ -348,63 +348,6 @@
   <data name="&gt;&gt;traceAsDebugOutputCheckBox.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="resetLogButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="resetLogButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>395, 20</value>
-  </data>
-  <data name="resetLogButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="resetLogButton.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="resetLogButton.Text" xml:space="preserve">
-    <value>Reset log</value>
-  </data>
-  <data name="&gt;&gt;resetLogButton.Name" xml:space="preserve">
-    <value>resetLogButton</value>
-  </data>
-  <data name="&gt;&gt;resetLogButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;resetLogButton.Parent" xml:space="preserve">
-    <value>tracingGroupBox</value>
-  </data>
-  <data name="&gt;&gt;resetLogButton.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="saveLogButton.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="saveLogButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="saveLogButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>476, 20</value>
-  </data>
-  <data name="saveLogButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 23</value>
-  </data>
-  <data name="saveLogButton.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="saveLogButton.Text" xml:space="preserve">
-    <value>Save log to file…</value>
-  </data>
-  <data name="&gt;&gt;saveLogButton.Name" xml:space="preserve">
-    <value>saveLogButton</value>
-  </data>
-  <data name="&gt;&gt;saveLogButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;saveLogButton.Parent" xml:space="preserve">
-    <value>tracingGroupBox</value>
-  </data>
-  <data name="&gt;&gt;saveLogButton.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
   <data name="enableTracingCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -433,13 +376,13 @@
     <value>tracingGroupBox</value>
   </data>
   <data name="&gt;&gt;enableTracingCheckBox.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>6</value>
   </data>
   <data name="tracingGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>171, 45</value>
+    <value>3, 3</value>
   </data>
   <data name="tracingGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>575, 146</value>
+    <value>324, 146</value>
   </data>
   <data name="tracingGroupBox.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -466,7 +409,7 @@
     <value>NoControl</value>
   </data>
   <data name="breakpointOnPanicCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>171, 198</value>
+    <value>3, 156</value>
   </data>
   <data name="breakpointOnPanicCheckBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>255, 17</value>
@@ -496,7 +439,7 @@
     <value>NoControl</value>
   </data>
   <data name="applyButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>684, 462</value>
+    <value>503, 271</value>
   </data>
   <data name="applyButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>

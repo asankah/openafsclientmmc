@@ -194,8 +194,8 @@
             // 
             // validateCacheComboBox
             // 
-            this.validateCacheComboBox.FormattingEnabled = true;
             resources.ApplyResources(this.validateCacheComboBox, "validateCacheComboBox");
+            this.validateCacheComboBox.FormattingEnabled = true;
             this.validateCacheComboBox.Name = "validateCacheComboBox";
             // 
             // applyButton
@@ -203,6 +203,7 @@
             resources.ApplyResources(this.applyButton, "applyButton");
             this.applyButton.Name = "applyButton";
             this.applyButton.UseVisualStyleBackColor = true;
+            this.applyButton.Click += new System.EventHandler(this.applyButton_Click);
             // 
             // chunkSizeTextBox
             // 
@@ -303,6 +304,7 @@
             this.Controls.Add(this.maxProcessorTextBox);
             this.Controls.Add(this.cacheGroupBox);
             this.Name = "PerformanceControl";
+            this.Load += new System.EventHandler(this.PerformanceControl_Load);
             this.probeIntervalsGroupBox.ResumeLayout(false);
             this.probeIntervalsGroupBox.PerformLayout();
             this.cacheGroupBox.ResumeLayout(false);
