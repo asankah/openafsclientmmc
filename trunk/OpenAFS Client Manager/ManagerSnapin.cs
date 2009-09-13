@@ -14,6 +14,8 @@ namespace OpenAFSClientManager
         DisplayName = "OpenAFS Client Manager",
         Description="Manages the OpenAFS Client",
         Vendor="OpenAFS")]
+    [SnapInHelpTopic("OpenAFS Client Manager.chm")]
+    [SnapInLinkedHelpTopic("OpenAFS Client Manager.chm")]
     public class ManagerSnapIn : SnapIn
     {
         public ManagerSnapIn()

@@ -1,0 +1,15 @@
+[OPTIONS]
+Binary TOC=Yes
+Compatibility=1.1 or later
+Compiled file=OpenAFS Client Manager.chm
+Contents file=OpenAFS Client Manager Table of Contents.hhc
+Display compile progress=No
+Index file=OpenAFS Client Manager Index.hhk
+Language=0x409 English (United States)
+
+
+[FILES]
+OpenAFS Client Manager.htm
+
+[INFOTYPES]
+
