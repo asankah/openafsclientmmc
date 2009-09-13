@@ -10,6 +10,13 @@ Language=0x409 English (United States)
 
 [FILES]
 OpenAFS Client Manager.htm
+CIFS.htm
+Performance.htm
+Cache Manager.htm
+Freelance Client.htm
+Servers.htm
+Log on options.htm
+Diagnostics.htm
 
 [INFOTYPES]
 

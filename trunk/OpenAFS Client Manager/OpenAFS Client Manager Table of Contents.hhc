@@ -12,5 +12,35 @@
 		<param name="Name" value="OpenAFS Client Manager">
 		<param name="Local" value="OpenAFS Client Manager.htm">
 		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="CIFS">
+			<param name="Local" value="CIFS.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Performance">
+			<param name="Local" value="Performance.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Cache Manager">
+			<param name="Local" value="Cache Manager.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Freelance Client">
+			<param name="Local" value="Freelance Client.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Servers">
+			<param name="Local" value="Servers.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Log on options">
+			<param name="Local" value="Log on options.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Diagnostics">
+			<param name="Local" value="Diagnostics.htm">
+			</OBJECT>
+	</UL>
 </UL>
 </BODY></HTML>
