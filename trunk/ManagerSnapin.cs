@@ -36,13 +36,13 @@ namespace OpenAFSClientManager
             perfNode.DisplayName = "Performance";
             perfNode.HelpTopic = "OpenAFS%20Client%20Manager.chm::/Performance.htm";
             cacheManNode.DisplayName = "Cache Manager";
-            cacheManNode.HelpTopic = "OpenAFS%20Client%20Manager.chm::/Cache%20Manager.htm";
+            cacheManNode.HelpTopic = "OpenAFS%20Client%20Manager.chm::/CacheManager.htm";
             freelanceNode.DisplayName = "Freelance Client";
-            freelanceNode.HelpTopic = "OpenAFS%20Client%20Manager.chm::/Freelance%20Client.htm";
+            freelanceNode.HelpTopic = "OpenAFS%20Client%20Manager.chm::/FreelanceClient.htm";
             serversNode.DisplayName = "Servers";
             serversNode.HelpTopic = "OpenAFS%20Client%20Manager.chm::/Servers.htm";
             logonNode.DisplayName = "Log on options";
-            logonNode.HelpTopic = "OpenAFS%20Client%20Manager.chm::/Log on options.htm";
+            logonNode.HelpTopic = "OpenAFS%20Client%20Manager.chm::/Logonoptions.htm";
             diagnosticsNode.DisplayName = "Diagnostics";
             diagnosticsNode.HelpTopic = "OpenAFS%20Client%20Manager.chm::/Diagnostics.htm";
             this.RootNode.Children.Add(cifsNode);
