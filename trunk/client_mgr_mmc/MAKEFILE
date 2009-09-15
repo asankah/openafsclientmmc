@@ -1,0 +1,52 @@
+VERSION=0.4.0.0
+all: "OpenAFS Client Manager $(VERSION) (x86).msi" "OpenAFS Client Manager $(VERSION) (x64).msi" MAKEFILE
+
+"OpenAFS Client Manager $(VERSION) (x86).msi": "manager-x86.wixobj" "OpenAFS Client Manager x86.dll" License.rtf MAKEFILE "OpenAFS Client Manager.msc" OpenAFS.ico "OpenAFS Client Manager.chm"
+	"$(WIX)\light" -pedantic:legendary -wx -w0 -loc "$(WIX)\WixUI_en-us.wxl" -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.NetFxCompiler, WixNetFxExtension" -out $@ manager-x86.wixobj "$(WIX)\netfx.wixlib" "$(WIX)\wixui.wixlib"
+
+"OpenAFS Client Manager $(VERSION) (x64).msi": "manager-x64.wixobj" "OpenAFS Client Manager x64.dll" License.rtf MAKEFILE "OpenAFS Client Manager.msc" OpenAFS.ico "OpenAFS Client Manager.chm"
+	"$(WIX)\light" -pedantic:legendary -wx -w0 -loc "$(WIX)\WixUI_en-us.wxl" -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.NetFxCompiler, WixNetFxExtension" -out $@ manager-x64.wixobj "$(WIX)\netfx.wixlib" "$(WIX)\wixui.wixlib"
+
+"manager-x86.wixobj": "Installer.wxs" MAKEFILE
+	"$(WIX)\candle" -dversion=$(VERSION) -dtarget=x86 -pedantic:legendary -trace -wx -w0 -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.NetFxCompiler, WixNetFxExtension" -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.MmcCompiler, WixMMCExtension" -out $@ "Installer.wxs"
+
+"manager-x64.wixobj": "Installer.wxs" MAKEFILE
+	"$(WIX)\candle" -dversion=$(VERSION) -dtarget=x64 -pedantic:legendary -trace -wx -w0 -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.NetFxCompiler, WixNetFxExtension" -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.MmcCompiler, WixMMCExtension" -out $@ "Installer.wxs"
+
+"OpenAFS Client Manager.chm": "OpenAFS Client Manager.htm" "Cache Manager.htm" CIFS.htm "Diagnostics.htm" Servers.htm "Performance.htm" "Log on options.htm" "Freelance Client.htm" "OpenAFS Client Manager.hhp" "OpenAFS Client Manager Table of Contents.hhc" "OpenAFS Client Manager Index.hhk" MAKEFILE
+	-"$(HHW)\hhc" "OpenAFS Client Manager.hhp"
+
+"Properties\OpenAFSClientManager.Properties.Resources.resources": "Properties\Resources.resx" MAKEFILE "Resources\bannrbmp.bmp"
+	"$(FXSDK)\resgen" /usesourcepath "Properties\Resources.resx" $@
+	
+"OpenAFSClientManager.ManagerControl.resources": "ManagerControl.resx" MAKEFILE
+	"$(FXSDK)\resgen" /usesourcepath "ManagerControl.resx" $@
+	
+"OpenAFSClientManager.LogOnControl.resources": "LogOnControl.resx" MAKEFILE
+	"$(FXSDK)\resgen" /usesourcepath "LogOnControl.resx" $@
+
+"OpenAFSClientManager.ServersControl.resources": "ServersControl.resx" MAKEFILE
+	"$(FXSDK)\resgen" /usesourcepath "ServersControl.resx" $@
+
+"OpenAFSClientManager.PerformanceControl.resources": "PerformanceControl.resx" MAKEFILE
+	"$(FXSDK)\resgen" /usesourcepath "PerformanceControl.resx" $@
+
+"OpenAFSClientManager.DiagnosticsControl.resources": "DiagnosticsControl.resx" MAKEFILE
+	"$(FXSDK)\resgen" /usesourcepath "DiagnosticsControl.resx" $@
+
+"OpenAFSClientManager.FreelanceClientControl.resources": "FreelanceClientControl.resx" MAKEFILE
+	"$(FXSDK)\resgen" /usesourcepath "FreelanceClientControl.resx" $@
+
+"OpenAFSClientManager.CifsControl.resources": "CifsControl.resx" MAKEFILE
+	"$(FXSDK)\resgen" /usesourcepath "CifsControl.resx" $@
+
+"OpenAFSClientManager.CacheManagerControl.resources": "CacheManagerControl.resx" MAKEFILE
+	"$(FXSDK)\resgen" /usesourcepath "CacheManagerControl.resx" $@
+
+"OpenAFS Client Manager x86.dll": brantgurga.pfx brantgurga.snk "ManagerSnapin.cs" "ManagerFormView.cs" "ManagerControl.cs" "ManagerControl.Designer.cs" "Properties\AssemblyInfo.cs" "Properties\Resources.Designer.cs" "UnhandledStateException.cs" "GlobalSuppressions.cs" MAKEFILE "Properties\OpenAFSClientManager.Properties.Resources.resources" "OpenAFSClientManager.ManagerControl.resources" "OpenAFSClientManager.ServersControl.resources" "OpenAFSClientManager.PerformanceControl.resources" "OpenAFSClientManager.LogOnControl.resources" "OpenAFSClientManager.FreelanceClientControl.resources" "OpenAFSClientManager.DiagnosticsControl.resources" "OpenAFSClientManager.CifsControl.resources" "OpenAFSClientManager.CacheManagerControl.resources" "ServersControl.cs" "ServersControl.Designer.cs" "CifsControl.cs" "CifsControl.Designer.cs" "PerformanceControl.cs" "PerformanceControl.Designer.cs" "CacheManagerControl.cs" "CacheManagerControl.Designer.cs" "FreelanceClientControl.cs" "FreelanceClientControl.Designer.cs" "LogOnControl.cs" "LogOnControl.Designer.cs" "DiagnosticsControl.cs" "DiagnosticsControl.Designer.cs"
+	"%SystemRoot%\Microsoft.NET\Framework\v2.0.50727\csc" /define:x86 /out:$@ /keyfile:brantgurga.snk /delaysign /target:library /platform:x86 /warnaserror /warn:4 /checked /resource:"OpenAFSClientManager.ServersControl.resources" /resource:"OpenAFSClientManager.PerformanceControl.resources" /resource:"OpenAFSClientManager.LogOnControl.resources" /resource:"OpenAFSClientManager.FreelanceClientControl.resources" /resource:"OpenAFSClientManager.DiagnosticsControl.resources" /resource:"OpenAFSClientManager.CifsControl.resources" /resource:"OpenAFSClientManager.CacheManagerControl.resources" /resource:"Properties\OpenAFSClientManager.Properties.Resources.resources" /resource:"OpenAFSClientManager.ManagerControl.resources" /reference:"%ProgramFiles%\Reference Assemblies\Microsoft\mmc\v3.0\microsoft.managementconsole.dll" ManagerSnapin.cs ManagerFormView.cs ManagerControl.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs ManagerControl.Designer.cs UnhandledStateException.cs GlobalSuppressions.cs "ServersControl.cs" "CifsControl.Designer.cs" "CifsControl.cs" "ServersControl.Designer.cs" "PerformanceControl.cs" "PerformanceControl.Designer.cs" "CacheManagerControl.cs" "CacheManagerControl.Designer.cs" "FreelanceClientControl.cs" "FreelanceClientControl.Designer.cs" "LogOnControl.cs" "LogOnControl.Designer.cs" "DiagnosticsControl.cs" "DiagnosticsControl.Designer.cs"
+	"$(FXSDK)\sn" -R "OpenAFS Client Manager x86.dll" brantgurga.pfx
+	
+"OpenAFS Client Manager x64.dll": brantgurga.pfx brantgurga.snk "ManagerSnapin.cs" "ManagerFormView.cs" "ManagerControl.cs" "ManagerControl.Designer.cs" "Properties\AssemblyInfo.cs" "Properties\Resources.Designer.cs" "UnhandledStateException.cs" "GlobalSuppressions.cs" MAKEFILE "Properties\OpenAFSClientManager.Properties.Resources.resources" "OpenAFSClientManager.ManagerControl.resources" "OpenAFSClientManager.ServersControl.resources" "OpenAFSClientManager.PerformanceControl.resources" "OpenAFSClientManager.LogOnControl.resources" "OpenAFSClientManager.FreelanceClientControl.resources" "OpenAFSClientManager.DiagnosticsControl.resources" "OpenAFSClientManager.CifsControl.resources" "OpenAFSClientManager.CacheManagerControl.resources" "ServersControl.cs" "ServersControl.Designer.cs" "CifsControl.cs" "CifsControl.Designer.cs" "PerformanceControl.cs" "PerformanceControl.Designer.cs" "CacheManagerControl.cs" "CacheManagerControl.Designer.cs" "FreelanceClientControl.cs" "FreelanceClientControl.Designer.cs" "LogOnControl.cs" "LogOnControl.Designer.cs" "DiagnosticsControl.cs" "DiagnosticsControl.Designer.cs"
+	"%SystemRoot%\Microsoft.NET\Framework64\v2.0.50727\csc" /define:x64 /out:$@ /keyfile:brantgurga.snk /delaysign /target:library /platform:x64 /warnaserror /warn:4 /checked /resource:"OpenAFSClientManager.ServersControl.resources" /resource:"OpenAFSClientManager.PerformanceControl.resources" /resource:"OpenAFSClientManager.LogOnControl.resources" /resource:"OpenAFSClientManager.FreelanceClientControl.resources" /resource:"OpenAFSClientManager.DiagnosticsControl.resources" /resource:"OpenAFSClientManager.CifsControl.resources" /resource:"OpenAFSClientManager.CacheManagerControl.resources" /resource:"Properties\OpenAFSClientManager.Properties.Resources.resources" /resource:"OpenAFSClientManager.ManagerControl.resources" /reference:"%ProgramFiles(x86)%\Reference Assemblies\Microsoft\mmc\v3.0\microsoft.managementconsole.dll" ManagerSnapin.cs ManagerFormView.cs ManagerControl.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs ManagerControl.Designer.cs UnhandledStateException.cs GlobalSuppressions.cs "ServersControl.cs" "ServersControl.Designer.cs" "CifsControl.cs" "CifsControl.Designer.cs" "PerformanceControl.cs" "PerformanceControl.Designer.cs" "CacheManagerControl.cs" "CacheManagerControl.Designer.cs" "FreelanceClientControl.cs" "FreelanceClientControl.Designer.cs" "LogOnControl.cs" "LogOnControl.Designer.cs" "DiagnosticsControl.cs" "DiagnosticsControl.Designer.cs"
+	"$(FXSDK)\x64\sn" -R "OpenAFS Client Manager x64.dll" brantgurga.pfx
