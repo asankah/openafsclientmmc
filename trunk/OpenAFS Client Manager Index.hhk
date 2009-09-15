@@ -8,7 +8,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="OpenAFS">
 		<param name="Name" value="OpenAFS Client Manager">
-		<param name="Local" value="OpenAFS Client Manager.htm">
+		<param name="Local" value="client_mgr_mmc.htm">
 		</OBJECT>
 </UL>
 </BODY></HTML>
