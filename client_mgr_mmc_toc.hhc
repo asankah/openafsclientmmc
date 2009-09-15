@@ -23,11 +23,11 @@
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Cache Manager">
-			<param name="Local" value="Cache Manager.htm">
+			<param name="Local" value="CacheManager.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Freelance Client">
-			<param name="Local" value="Freelance Client.htm">
+			<param name="Local" value="FreelanceClient.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Servers">
@@ -35,7 +35,7 @@
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Log on options">
-			<param name="Local" value="Log on options.htm">
+			<param name="Local" value="Logonoptions.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Diagnostics">
