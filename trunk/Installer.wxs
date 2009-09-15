@@ -57,7 +57,7 @@
                 </File>
               </Component>
               <Component Id="Console" DiskId="1" Guid="$(var.ConsoleId)" Win64="$(var.Win64)">
-                <File Id="ConsoleFile" Checksum="yes" LongName="OpenAFS Client Manager.msc" Name="manager.msc" Source="OpenAFS Client Manager.msc" KeyPath="yes">
+                <File Id="ConsoleFile" Checksum="yes" LongName="OpenAFS Client Manager.msc" Name="manager.msc" Source="client_mgr_mmc.msc" KeyPath="yes">
                   <Shortcut Id="AdminToolsShortcut" Advertise="yes" Directory="AdminToolsFolder" LongName="OpenAFS Client Manager.lnk" Name="manager.lnk" Icon="managericon.ico"/>
                   <Shortcut Id="StartMenuShortcut" Advertise="yes" Directory="OpenAFSShortcuts" LongName="OpenAFS Client Manager.lnk" Name="manager.lnk" Icon="managericon.ico"/>
                 </File>
