@@ -22,7 +22,7 @@ namespace OpenAFSClientManager
         {
             this.RootNode = new ScopeNode();
             this.RootNode.DisplayName = "OpenAFS Client Manager";
-            this.RootNode.HelpTopic = "OpenAFS%20Client%20Manager.chm::/OpenAFS%20Client%20Manager.htm";
+            this.RootNode.HelpTopic = "OpenAFS%20Client%20Manager.chm::/client_mgr_mmc.htm";
 
             ScopeNode cifsNode = new ScopeNode(true);
             ScopeNode perfNode = new ScopeNode(true);

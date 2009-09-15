@@ -3,13 +3,13 @@ Binary TOC=Yes
 Compatibility=1.1 or later
 Compiled file=OpenAFS Client Manager.chm
 Contents file=OpenAFS Client Manager Table of Contents.hhc
+Default topic=client_mgr_mmc.htm
 Display compile progress=No
 Index file=OpenAFS Client Manager Index.hhk
 Language=0x409 English (United States)
 
 
 [FILES]
-OpenAFS Client Manager.htm
 CIFS.htm
 Performance.htm
 Cache Manager.htm
@@ -17,6 +17,7 @@ Freelance Client.htm
 Servers.htm
 Log on options.htm
 Diagnostics.htm
+client_mgr_mmc.htm
 
 [INFOTYPES]
 

@@ -13,7 +13,7 @@ all: "OpenAFS Client Manager $(VERSION) (x86).msi" "OpenAFS Client Manager $(VER
 "manager-x64.wixobj": "Installer.wxs" MAKEFILE
 	"$(WIX)\candle" -dversion=$(VERSION) -dtarget=x64 -pedantic:legendary -trace -wx -w0 -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.NetFxCompiler, WixNetFxExtension" -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.MmcCompiler, WixMMCExtension" -out $@ "Installer.wxs"
 
-"OpenAFS Client Manager.chm": "OpenAFS Client Manager.htm" "Cache Manager.htm" CIFS.htm "Diagnostics.htm" Servers.htm "Performance.htm" "Log on options.htm" "Freelance Client.htm" "OpenAFS Client Manager.hhp" "OpenAFS Client Manager Table of Contents.hhc" "OpenAFS Client Manager Index.hhk" MAKEFILE
+"OpenAFS Client Manager.chm": "client_mgr_mmc.htm" "Cache Manager.htm" CIFS.htm "Diagnostics.htm" Servers.htm "Performance.htm" "Log on options.htm" "Freelance Client.htm" "OpenAFS Client Manager.hhp" "OpenAFS Client Manager Table of Contents.hhc" "OpenAFS Client Manager Index.hhk" MAKEFILE
 	-"$(HHW)\hhc" "OpenAFS Client Manager.hhp"
 
 "Properties\OpenAFSClientManager.Properties.Resources.resources": "Properties\Resources.resx" MAKEFILE "Resources\bannrbmp.bmp"
