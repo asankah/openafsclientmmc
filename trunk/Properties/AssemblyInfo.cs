@@ -10,9 +10,7 @@ using System;
 [assembly: AssemblyTitle("OpenAFS Client Manager Snap-in")]
 [assembly: AssemblyDescription("Manages the OpenAFS Client on Windows")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Brant Gurganus")]
 [assembly: AssemblyProduct("OpenAFS Client Manager")]
-[assembly: AssemblyCopyright("Copyright © Brant Gurganus 2009")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -21,21 +19,6 @@ using System;
 // COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
 
-// The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("85e69720-99e4-48a9-9e93-846b13746039")]
-
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Build and Revision Numbers 
-// by using the '*' as shown below:
-// [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
 [assembly: NeutralResourcesLanguageAttribute("en-US")]
 [assembly: CLSCompliant(true)]
 
