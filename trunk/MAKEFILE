@@ -8,6 +8,13 @@ all: "OpenAFS Client Manager $(VERSION) (x86).msi" "OpenAFS Client Manager $(VER
 "OpenAFS Client Manager $(VERSION) (x64).msi": "manager-x64.wixobj" "OpenAFS Client Manager x64.dll" License.rtf MAKEFILE "client_mgr_mmc.msc" OpenAFS.ico "OpenAFS Client Manager.chm"
 	"$(WIX)\light" -pedantic:legendary -wx -w0 -loc "$(WIX)\WixUI_en-us.wxl" -ext "Microsoft.Tools.WindowsInstallerXml.Extensions.NetFxCompiler, WixNetFxExtension" -out $@ manager-x64.wixobj "$(WIX)\netfx.wixlib" "$(WIX)\wixui.wixlib"
 
+
+token.txt: MAKEFILE "OpenAFS Client Manager x86.dll"
+	"$(FXSDK)\sn" -q -T "OpenAFS Client Manager x86.dll"
+	
+"Installer.wxs": MAKEFILE token.txt "Installer.wxs.template" token.js
+	cscript token.js
+	
 version.cs: MAKEFILE
 	echo [assembly: System.Reflection.AssemblyVersion("$(VERSION)")][assembly: System.Reflection.AssemblyFileVersion("$(VERSION)")] > version.cs
 
