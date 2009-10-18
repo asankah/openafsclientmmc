@@ -53,7 +53,7 @@
                 <File Id="SnapinFile" Checksum="yes" LongName="$(var.Source)" Name="manager.dll" Source="$(var.Source)" KeyPath="yes" ProcessorArchitecture="$(var.ProcessorArchitecture)" Vital="yes">
                   <netfx:NativeImage Id="NativeSnapinFile" Platform="$(var.Platform)" />
                   <!-- TODO: Add the localizable resources for icons and such. -->
-                  <mmc:SnapIn Id="95E6D88A-832B-49DF-A8E1-BF4DD77F2897" AssemblyName="$(var.AssemblyName)" ClassType="OpenAFSClientManager.ManagerSnapIn" DefaultCulture="neutral" DefaultPublicKeyToken="65b48e3fe5f62ac8" DefaultVersion="$(var.version)" Description="Manages the OpenAFS client." Name="OpenAFS Client Manager" Provider="$(var.publisher)" />
+                  <mmc:SnapIn Id="95E6D88A-832B-49DF-A8E1-BF4DD77F2897" AssemblyName="$(var.AssemblyName)" ClassType="OpenAFSClientManager.ManagerSnapIn" DefaultCulture="neutral" DefaultPublicKeyToken="insert token here" DefaultVersion="$(var.version)" Description="Manages the OpenAFS client." Name="OpenAFS Client Manager" Provider="$(var.publisher)" />
                 </File>
               </Component>
               <Component Id="Console" DiskId="1" Guid="$(var.ConsoleId)" Win64="$(var.Win64)">

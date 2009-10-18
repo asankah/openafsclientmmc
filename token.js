@@ -1,0 +1,12 @@
+var fso = new ActiveXObject("Scripting.FileSystemObject");
+var tokentextfile = fso.OpenTextFile("token.txt");
+var tokentext = tokentextfile.ReadLine();
+tokentextfile.Close();
+var token = tokentext.substring(20);
+var beforefile = fso.OpenTextFile("Installer.wxs.template");
+var beforetext = beforefile.ReadAll();
+beforefile.Close();
+var aftertext = beforetext.replace("insert token here", token);
+var afterfile = fso.CreateTextFile("Installer.wxs", true);
+afterfile.Write(aftertext);
+afterfile.Close();
