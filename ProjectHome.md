@@ -1,0 +1,1 @@
+This is a [Microsoft Management Console](http://technet.microsoft.com/en-us/library/bb742441.aspx) snap-in for managing the [OpenAFS](http://www.openafs.org/) client.
